@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+
+<addon id="repository.primaeval"
+		name="primaeval's beta dev repo"
+		version="0.0.1"
+		provider-name="primaeval">
+	<extension point="xbmc.addon.repository"
+		name="primaeval's beta dev repo">
+		<dir>
+			<info compressed="false">https://github.com/primaeval/repository.primaeval/raw/master/primaeval-addons.xml</info>
+			<checksum>https://github.com/primaeval/repository.primaeval/raw/master/primaeval-addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.github.com/primaeval/repository.primaeval/master/zips/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">primaeval's beta dev repo</summary>
+		<description lang="en">primaeval's beta dev repo</description>
+		<disclaimer lang="en">It's beta. There are no guarantees! No refunds!</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="script.games.play.mame" name="Play MAME" version="0.0.1" provider-name="primaeval">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language></language>
+    <summary>Play MAME Games</summary>
+    <description>Insert Coin. Press Play.</description>
+  </extension>
+</addon>
+
+</addons>
