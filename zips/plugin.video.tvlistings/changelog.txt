@@ -1,3 +1,6 @@
+Version 0.0.3
+- fix
+
 Version 0.0.2
 - user friendly addon name links
 - couch/sick if installed
