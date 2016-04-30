@@ -1,2 +1,6 @@
+Version 0.0.2
+- user friendly addon name links
+- couch/sick if installed
+
 Version 0.0.1
 - first release
