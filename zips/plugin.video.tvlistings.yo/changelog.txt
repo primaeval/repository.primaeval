@@ -1,0 +1,8 @@
+Version 0.0.3
+- optional .ini template creation
+
+Version 0.0.2
+- fix
+
+Version 0.0.1
+- first release
