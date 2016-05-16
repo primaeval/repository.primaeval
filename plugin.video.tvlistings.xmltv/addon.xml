@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.tvlistings.xmltv"
+version="0.0.1"
+name="TV Listings (xmltv)"
+provider-name="primaeval">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">TV Listings (xmltv)</summary>
+  <description lang="en">TV Listings (xmltv). Meta4Kodi catchup playback. Addon ini files for live stream selection.</description>
+  <disclaimer lang="en">.</disclaimer>
+</extension>
+</addon>
+
