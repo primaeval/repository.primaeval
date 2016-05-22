@@ -1,2 +1,5 @@
+Version 0.0.2
+- xmltv file sort order 
+
 Version 0.0.1
 - first release
