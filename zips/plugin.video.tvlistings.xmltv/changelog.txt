@@ -1,3 +1,6 @@
+Version 0.0.3
+- search 
+
 Version 0.0.2
 - xmltv file sort order 
 
