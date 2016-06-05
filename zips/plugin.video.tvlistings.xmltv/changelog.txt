@@ -1,3 +1,6 @@
+Version 0.0.5
+- hourly, prime time
+
 Version 0.0.4
 - unicode channels 
 
