@@ -1,3 +1,7 @@
+Version 0.0.6
+- sqlite database
+- xmltv url
+
 Version 0.0.5
 - hourly, prime time
 
