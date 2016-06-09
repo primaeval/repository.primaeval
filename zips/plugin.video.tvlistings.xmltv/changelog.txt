@@ -1,3 +1,6 @@
+Version 0.0.10
+- xmltv reload timer
+
 Version 0.0.9
 - better xmltv reload logic
 
