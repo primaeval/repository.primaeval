@@ -1,3 +1,7 @@
+Version 0.0.8
+- Meta movie search
+- progress dialog
+
 Version 0.0.7
 - Meta Live search
 - icons
