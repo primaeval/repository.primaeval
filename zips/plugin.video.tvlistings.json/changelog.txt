@@ -1,2 +1,6 @@
+Version 0.0.2
+- Meta Live search
+- icons
+
 Version 0.0.1
 - first release

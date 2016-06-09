@@ -76,7 +76,7 @@ provider-name="primaeval">
 </addon>
 
 <addon id="plugin.video.tvlistings.xmltv"
-version="0.0.6"
+version="0.0.7"
 name="TV Listings (xmltv)"
 provider-name="primaeval">
 <requires>
@@ -94,27 +94,9 @@ provider-name="primaeval">
 </extension>
 </addon>
 
-<addon id="plugin.video.tvlistings.xml2bsv"
-version="0.0.2"
-name="TV Listings (xml2bsv)"
-provider-name="primaeval">
-<requires>
-  <import addon="xbmc.python" version="2.20.0"/>
-  <import addon="script.module.xbmcswift2" version="2.4.0"/>
-  <import addon="script.module.requests" version="2.9.1" />
-</requires>
-<extension point="xbmc.python.pluginsource" library="main.py">
-  <provides>video</provides>
-</extension>
-<extension point="xbmc.addon.metadata">
-  <summary lang="en">TV Listings (xml2bsv)</summary>
-  <description lang="en">TV Listings (xml2bsv). Meta4Kodi catchup playback. Addon ini files for live stream selection.</description>
-  <disclaimer lang="en">.</disclaimer>
-</extension>
-</addon>
 
 <addon id="plugin.video.tvlistings.json"
-version="0.0.1"
+version="0.0.2"
 name="TV Listings (json)"
 provider-name="primaeval">
 <requires>
