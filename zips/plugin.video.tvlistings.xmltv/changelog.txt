@@ -1,3 +1,6 @@
+Version 0.0.11
+- xmltv daily timer
+
 Version 0.0.10
 - xmltv reload timer
 
