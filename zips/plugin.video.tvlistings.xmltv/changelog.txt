@@ -1,3 +1,6 @@
+Version 0.0.17
+- fix
+
 Version 0.0.16
 - watch and stop option
 
