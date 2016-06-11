@@ -1,3 +1,6 @@
+Version 0.0.16
+- watch and stop option
+
 Version 0.0.15
 - programme reminder (one shot)
 - secret channel changer (create ini file with [change_channel] addon)
