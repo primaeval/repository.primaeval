@@ -1,3 +1,7 @@
+Version 0.0.14
+- WARNING! force xmltv reload because the database structure has changed
+- added programme stop time
+
 Version 0.0.13
 - logo url/folder
 
