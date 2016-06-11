@@ -1,3 +1,7 @@
+Version 0.0.15
+- programme reminder (one shot)
+- secret channel changer (create ini file with [change_channel] addon)
+
 Version 0.0.14
 - WARNING! force xmltv reload because the database structure has changed
 - added programme stop time
@@ -33,13 +37,13 @@ Version 0.0.5
 - hourly, prime time
 
 Version 0.0.4
-- unicode channels 
+- unicode channels
 
 Version 0.0.3
-- search 
+- search
 
 Version 0.0.2
-- xmltv file sort order 
+- xmltv file sort order
 
 Version 0.0.1
 - first release
