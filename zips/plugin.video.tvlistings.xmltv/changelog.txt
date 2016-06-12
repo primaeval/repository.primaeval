@@ -1,4 +1,7 @@
 Version 0.0.22
+- cancel reminder alarms
+
+Version 0.0.22
 - overlapping watch reminders
 
 Version 0.0.21
