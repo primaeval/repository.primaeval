@@ -1,3 +1,6 @@
+Version 0.0.20
+- refresh reminders on login
+
 Version 0.0.19
 - unicode fix
 
