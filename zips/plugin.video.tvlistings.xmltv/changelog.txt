@@ -1,3 +1,6 @@
+Version 0.0.18
+- persistent reminders
+
 Version 0.0.17
 - fix
 
