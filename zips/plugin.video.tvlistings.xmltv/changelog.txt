@@ -1,3 +1,6 @@
+Version 0.0.25
+- activate player for tricksy links
+
 Version 0.0.24
 - channel context menu and mapping
 
