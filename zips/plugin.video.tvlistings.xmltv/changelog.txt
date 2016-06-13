@@ -1,4 +1,7 @@
-Version 0.0.22
+Version 0.0.24
+- channel context menu and mapping
+
+Version 0.0.23
 - cancel reminder alarms
 
 Version 0.0.22
