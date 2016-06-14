@@ -1,3 +1,6 @@
+Version 0.0.30
+- stream play options
+
 Version 0.0.29
 - show addon streams
 
