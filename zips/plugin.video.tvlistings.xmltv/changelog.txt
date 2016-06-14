@@ -1,3 +1,6 @@
+Version 0.0.29
+- show addon streams
+
 Version 0.0.28
 - nuke addon_data from settings
 
