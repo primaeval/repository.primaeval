@@ -1,3 +1,6 @@
+Version 0.0.28
+- nuke addon_data from settings
+
 Version 0.0.27
 - channel list
 
