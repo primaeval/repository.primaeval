@@ -1,3 +1,6 @@
+Version 0.0.31
+- browse and add addon folders to ini
+
 Version 0.0.30
 - stream play options
 

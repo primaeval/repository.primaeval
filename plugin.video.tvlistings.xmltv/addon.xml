@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.tvlistings.xmltv"
-version="0.0.30"
+version="0.0.31"
 name="TV Listings (xmltv)"
 provider-name="primaeval">
 <requires>
