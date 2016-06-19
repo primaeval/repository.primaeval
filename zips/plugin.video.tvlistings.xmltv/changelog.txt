@@ -1,3 +1,6 @@
+Version 0.1.5
+- context menus for channel settings
+
 Version 0.1.4
 - Super Favourites iStream
 - user friendliness
