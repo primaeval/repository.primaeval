@@ -1,3 +1,6 @@
+Version 0.1.7
+- fixes
+
 Version 0.1.6
 - seperate Next menu
 
