@@ -1,3 +1,6 @@
+Version 0.1.10
+- more context menus
+
 Version 0.1.9
 - refresh addon shortcuts command
 
