@@ -1,3 +1,6 @@
+Version 0.2.0
+- simplified playback
+
 Version 0.1.13
 - optional refresh after command for struggling hardware
 
