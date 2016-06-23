@@ -1,3 +1,6 @@
+Version 0.1.13
+- optional refresh after command for struggling hardware
+
 Version 0.1.12
 - speedups
 
