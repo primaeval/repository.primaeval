@@ -1,3 +1,6 @@
+Version 0.2.3
+- export ini folder chooser
+
 Version 0.2.2
 - nicer color tones
 - more context menus
