@@ -1,9 +1,0 @@
-Version 0.0.3
-- Meta movie search
-
-Version 0.0.2
-- Meta Live search
-- icons
-
-Version 0.0.1
-- first release
