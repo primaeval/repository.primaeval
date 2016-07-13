@@ -76,7 +76,7 @@ provider-name="primaeval">
 </addon>
 
 <addon id="plugin.video.tvlistings.xmltv"
-version="0.2.3"
+version="0.2.4"
 name="TV Listings (xmltv)"
 provider-name="primaeval">
 <requires>

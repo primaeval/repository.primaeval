@@ -1,3 +1,6 @@
+Version 0.2.4
+- stop refresh reminders notification
+
 Version 0.2.3
 - export ini folder chooser
 
