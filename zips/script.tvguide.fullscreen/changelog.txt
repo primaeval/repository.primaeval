@@ -1,10 +1,50 @@
 USAGE NOTES:
+- controls: osd (info,i), normal overlays (fullscreen,tab), pip toggle (context menu, c), exit (back,esc)
 - "Import addons.ini" will overwrite addon folders on next update timer
-- use cyan theme with 8 channels per page to match original tv guide icon layout
+- use pip theme with 8 channels per page to match original tv guide icon layout
 - click to load in addon browse dialog
 - right click to add channels to categories
 - reload all folders in settings
 - use Spoyser's repo for Super Favourites
+
+version 0.0.53
+- no addons fix
+
+version 0.0.52
+- cosmetic fixes
+
+version 0.0.51
+- setting to download action folder icons
+- persistent category selection
+- fullscreen stream setup window
+
+version 0.0.50
+- channel icons from xmltv or addon folders
+
+version 0.0.49
+- strm/m3u8 sub-streams
+
+version 0.0.48
+- osd fix
+
+version 0.0.47
+- stop on exit setting
+- license change
+
+version 0.0.46
+- clearer pip skin layout
+- seperate button for stream setup (beware!)
+
+version 0.0.45
+- rpi fix (hopefully)
+- last page scroll fix
+- new pip skin
+- less flashing
+
+version 0.0.44
+- WARNING cyan skin is back to Default skin (change your settings!)
+- supports audio addons too
+- make context menu clearer
 
 version 0.0.43
 - osd context menu key fix
