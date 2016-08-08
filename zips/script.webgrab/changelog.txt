@@ -1,3 +1,8 @@
+Version 0.0.4
+- move channels
+- sort channels
+- color active channels
+
 Version 0.0.3
 - change name and id
 - copy config folder
