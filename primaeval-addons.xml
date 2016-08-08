@@ -134,7 +134,7 @@ provider-name="primaeval">
   </extension>
 </addon>
 
-<addon id="script.tvguide.fullscreen" name="TV Guide Fullscreen" version="0.0.53" provider-name="primaeval">
+<addon id="script.tvguide.fullscreen" name="TV Guide Fullscreen" version="0.0.54" provider-name="primaeval">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
@@ -156,23 +156,5 @@ provider-name="primaeval">
 	</extension>
 </addon>
 
-<addon id="script.webgrab"
-version="0.0.3"
-name="Webgrab+Plus Configurator"
-provider-name="primaeval">
-<requires>
-  <import addon="xbmc.python" version="2.20.0"/>
-  <import addon="script.module.xbmcswift2" version="2.4.0"/>
-  <import addon="script.module.requests" version="2.9.1" />
-</requires>
-<extension point="xbmc.python.pluginsource" library="main.py">
-  <provides>executable</provides>
-</extension>
-<extension point="xbmc.addon.metadata">
-  <summary lang="en">Webgrab+Plus Configurator</summary>
-  <description lang="en">Easily set up your Webgrab+Plus config and ini files.</description>
-  <disclaimer lang="en">.</disclaimer>
-</extension>
-</addon>
 
 </addons>
