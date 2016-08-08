@@ -1,3 +1,6 @@
+Version 0.0.5
+- yellow channels
+
 Version 0.0.4
 - move channels
 - sort channels
