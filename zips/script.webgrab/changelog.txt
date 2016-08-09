@@ -1,3 +1,7 @@
+Version 0.0.6
+- sort countries
+- hide channels
+
 Version 0.0.5
 - yellow channels
 
