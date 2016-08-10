@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.bbc.live"
-version="0.0.2"
+version="0.0.3"
 name="BBC Live"
 provider-name="primaeval">
 <requires>

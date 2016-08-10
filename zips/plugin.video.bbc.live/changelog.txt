@@ -1,3 +1,6 @@
+Version 0.0.3
+- olympic bitrate
+
 Version 0.0.2
 - olympic special
 
