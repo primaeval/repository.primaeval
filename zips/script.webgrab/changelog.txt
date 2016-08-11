@@ -1,3 +1,6 @@
+Version 0.0.9
+- fix
+
 Version 0.0.8
 - optional config settings
 - info windows
