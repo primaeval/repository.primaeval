@@ -1,3 +1,7 @@
+Version 0.0.13
+- background run
+- log fix
+
 Version 0.0.12
 - move fix
 
