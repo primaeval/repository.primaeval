@@ -1,3 +1,6 @@
+Version 0.0.16
+- tv.com utc offset
+
 Version 0.0.15
 - tv.com automation
 
