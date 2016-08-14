@@ -1,0 +1,11 @@
+Version 0.0.4
+- autoplay
+
+Version 0.0.3
+- olympic bitrate
+
+Version 0.0.2
+- olympic special
+
+Version 0.0.1
+- first release
