@@ -1,3 +1,6 @@
+Version 0.0.19
+- use script.toolbox from main kodi repo
+
 Version 0.0.18
 - depends on script.toolbox to display log
 
