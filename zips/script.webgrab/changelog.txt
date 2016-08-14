@@ -1,3 +1,6 @@
+Version 0.0.18
+- depends on script.toolbox to display log
+
 Version 0.0.17
 - tv.com zip and utc storage
 
