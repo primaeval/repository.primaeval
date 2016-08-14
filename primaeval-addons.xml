@@ -157,7 +157,7 @@ provider-name="primaeval">
 </addon>
 
 <addon id="script.webgrab"
-version="0.0.16"
+version="0.0.17"
 name="Webgrab+Plus Configurator"
 provider-name="primaeval">
 <requires>
@@ -387,6 +387,26 @@ provider-name="primaeval">
     <disclaimer lang="zh_TW">Confluence 是 Kodi 預設的佈景主題，移除它可能會造成問題</disclaimer>
     <platform>all</platform>
   </extension>
+</addon>
+
+<addon id="repository.imdbsearch"
+		name="IMDb Search Addon Repository"
+		version="0.0.1"
+		provider-name="primaeval">
+	<extension point="xbmc.addon.repository"
+		name="IMDb Search Addon Repository">
+		<dir>
+			<info compressed="false">https://github.com/primaeval/repository.imdbsearch/raw/master/imdbsearch-addons.xml</info>
+			<checksum>https://github.com/primaeval/repository.imdbsearch/raw/master/imdbsearch-addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.github.com/primaeval/repository.imdbsearch/master/zips/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">IMDb Search Addon Repository</summary>
+		<description lang="en">Addons for advanced IMDb searches.</description>
+		<disclaimer lang="en">This is not an official IMDb product, just a front end to their excellent advanced search pages.</disclaimer>
+		<platform>all</platform>
+	</extension>
 </addon>
 
 </addons>
