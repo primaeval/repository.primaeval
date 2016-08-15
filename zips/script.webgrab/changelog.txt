@@ -1,3 +1,6 @@
+Version 0.0.20
+- log viewer fix
+
 Version 0.0.19
 - use script.toolbox from main kodi repo
 
