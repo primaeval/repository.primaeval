@@ -134,7 +134,7 @@ provider-name="primaeval">
   </extension>
 </addon>
 
-<addon id="script.tvguide.fullscreen" name="TV Guide Fullscreen" version="0.0.59" provider-name="primaeval, ianimacleod">
+<addon id="script.tvguide.fullscreen" name="TV Guide Fullscreen" version="0.0.60" provider-name="primaeval, iainmacleod, im85288">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
@@ -155,6 +155,7 @@ provider-name="primaeval">
 		<email></email>
 	</extension>
 </addon>
+
 
 <addon id="script.webgrab"
 version="0.0.20"
