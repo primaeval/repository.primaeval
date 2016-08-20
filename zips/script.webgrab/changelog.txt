@@ -1,3 +1,7 @@
+Version 0.0.22
+- timezone edits copied to output files
+- quick add / remove multiselect in providers context menu
+
 Version 0.0.21
 - timezone edit
 
