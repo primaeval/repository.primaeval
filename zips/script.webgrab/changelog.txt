@@ -1,3 +1,6 @@
+Version 0.0.24
+- quick add highlights already added
+
 Version 0.0.23
 - fix
 

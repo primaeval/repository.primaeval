@@ -157,7 +157,7 @@ provider-name="primaeval">
 </addon>
 
 <addon id="script.webgrab"
-version="0.0.23"
+version="0.0.24"
 name="Webgrab+Plus Configurator"
 provider-name="primaeval">
 <requires>
