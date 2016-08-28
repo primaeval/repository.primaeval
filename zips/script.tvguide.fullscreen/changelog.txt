@@ -3,9 +3,9 @@ USAGE NOTES:
 
   EPG mode:
     menu (context,c)
-    Listings view (info,i)
-    Now view (menu,m)
-    Next view (last page, end )
+    Listings view (info,i,1)
+    Now view (menu,m,2)
+    Next view (last page,end,3)
     movement (up,down,left,right,ok)
     close (esc,back)
   TV mode:
@@ -27,6 +27,9 @@ USAGE NOTES:
 - right click to add channels to categories
 - reload all folders in settings
 - use Spoyser's repo for Super Favourites
+
+version 0.0.88
+- Listings (1), Now (2), Next (3)
 
 version 0.0.87
 - Now (menu,m)/ Next (last page, end) views
