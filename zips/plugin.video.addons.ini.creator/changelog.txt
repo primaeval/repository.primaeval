@@ -1,3 +1,6 @@
+Version 0.0.4
+- better pvr:// links
+
 Version 0.0.3
 - direct pvr:// links
 - sorted output
