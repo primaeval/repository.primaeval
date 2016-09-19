@@ -1,3 +1,7 @@
+Version 0.0.3
+- direct pvr:// links
+- sorted output
+
 Version 0.0.2
 - pvr support
 
