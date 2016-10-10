@@ -410,7 +410,7 @@ provider-name="primaeval">
 </extension>
 </addon>
 
-<addon id="plugin.video.simple.favourites"
+<addon id="plugin.program.simple.favourites"
 version="0.0.1"
 name="Simple Favourites"
 provider-name="primaeval">
