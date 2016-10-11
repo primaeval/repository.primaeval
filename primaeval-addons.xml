@@ -411,7 +411,7 @@ provider-name="primaeval">
 </addon>
 
 <addon id="plugin.program.simple.favourites"
-version="0.0.4"
+version="0.0.5"
 name="Simple Favourites"
 provider-name="primaeval">
 <requires>
