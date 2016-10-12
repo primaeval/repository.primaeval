@@ -1,3 +1,8 @@
+version 0.0.7
+- include in pictures, programs menus
+- default: include Kodi Favourites
+- default: sort everything
+
 version 0.0.6
 - Add from Kodi Favourites
 

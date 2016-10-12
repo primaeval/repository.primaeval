@@ -411,7 +411,7 @@ provider-name="primaeval">
 </addon>
 
 <addon id="plugin.program.simple.favourites"
-version="0.0.6"
+version="0.0.7"
 name="Simple Favourites"
 provider-name="primaeval">
 <requires>
@@ -420,7 +420,7 @@ provider-name="primaeval">
   <import addon="script.module.requests" version="2.9.1" />
 </requires>
 <extension point="xbmc.python.pluginsource" library="main.py">
-  <provides>video audio</provides>
+  <provides>image video audio executable</provides>
 </extension>
 <extension point="xbmc.addon.metadata">
   <summary lang="en">Simple Favourites</summary>
