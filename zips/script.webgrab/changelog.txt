@@ -1,3 +1,7 @@
+Version 0.0.28
+- <mode>n - no marks
+- overwrite site.ini setting
+
 Version 0.0.27
 - directv.com
 
