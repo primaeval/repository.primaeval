@@ -114,12 +114,13 @@ provider-name="primaeval">
   </extension>
 </addon>
 
-<addon id="script.tvguide.fullscreen" name="TV Guide Fullscreen" version="0.0.176" provider-name="primaeval, iainmacleod, im85288, RayW1986, bluezed">
+<addon id="script.tvguide.fullscreen" name="TV Guide Fullscreen" version="0.0.177" provider-name="primaeval, iainmacleod, im85288, RayW1986, bluezed">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
         <import addon="script.module.requests" version="2.9.1" />
         <import addon="script.module.dateutil" version="2.4.2" />
+        <import addon="script.module.pil" />"
 	</requires>
 	<extension point="xbmc.python.script" library="addon.py">
             <provides>executable</provides>
