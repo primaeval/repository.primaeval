@@ -1,3 +1,7 @@
+Version 0.0.31
+- siteini version check before download
+- timezone select dialog
+
 Version 0.0.30
 - Device Setup Wizard
 
