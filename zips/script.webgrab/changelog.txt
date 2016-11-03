@@ -1,3 +1,6 @@
+Version 0.0.30
+- Device Setup Wizard
+
 Version 0.0.28-29
 - <mode>n - no marks
 - overwrite site.ini setting
