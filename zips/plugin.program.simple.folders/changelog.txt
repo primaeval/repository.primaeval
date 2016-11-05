@@ -1,2 +1,6 @@
+version 0.0.2
+- user icons (make a folder called userdata\addon_data\plugin.program.simple.folders\icons)
+- (current icons needed are: audio.png favourites.png music.png settings.png tv.png video.png)
+
 version 0.0.1
 - first release

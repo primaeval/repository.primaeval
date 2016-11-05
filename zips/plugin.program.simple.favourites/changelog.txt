@@ -1,3 +1,7 @@
+version 0.0.10
+- user icons (make a folder called userdata\addon_data\plugin.program.simple.favourites\icons)
+- (current icons needed are: audio.png favourites.png music.png settings.png tv.png video.png)
+
 version 0.0.7-9
 - include in pictures, programs menus
 - default: include Kodi Favourites
