@@ -1,3 +1,7 @@
+version 0.0.4
+- path fix (hopefully)
+- Files and Browse are in Settings \ Advanced (they may not work on some devices)
+
 version 0.0.3
 - Files (use protocol eg c:\ http:// smb:// nfs:// special://)
 - Note: files will be filtered depending on where addon was started (Video,Music,Pictures etc)
