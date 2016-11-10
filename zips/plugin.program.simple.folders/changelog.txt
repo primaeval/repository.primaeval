@@ -1,3 +1,7 @@
+version 0.0.5
+- Import/Export in Add if enabled in Settings\Advanced
+- import/export file is userdata\addon_data\plugin.program.simple.folders\favourites.json
+
 version 0.0.4
 - path fix (hopefully)
 - Files and Browse are in Settings \ Advanced (they may not work on some devices)
