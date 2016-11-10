@@ -431,7 +431,7 @@ provider-name="primaeval">
 </addon>
 
 <addon id="plugin.program.simple.folders"
-version="0.0.7"
+version="0.0.8"
 name="Simple Folders"
 provider-name="primaeval">
 <requires>
