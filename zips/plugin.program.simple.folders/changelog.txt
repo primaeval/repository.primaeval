@@ -1,4 +1,4 @@
-version 0.0.5-6
+version 0.0.5-7
 - Import/Export in Add if enabled in Settings\Advanced
 - import/export file is userdata\addon_data\plugin.program.simple.folders\favourites.json
 
