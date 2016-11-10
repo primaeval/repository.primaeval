@@ -1,4 +1,4 @@
-version 0.0.12
+version 0.0.12-13
 - removed Files menu in Add (it is in the Simple Folders only now)
 
 version 0.0.11
