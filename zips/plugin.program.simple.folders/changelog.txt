@@ -1,3 +1,9 @@
+version 0.0.11
+- END OF THE ADDON. 
+- I will be ending this addon soon.
+- Sorry. Thanks for Beta Testing.
+- Simple Favourites can handle Folders now and is easier to use and customize by hand.
+
 version 0.0.5-10
 - Import/Export in Add if enabled in Settings\Advanced
 - import/export file is userdata\addon_data\plugin.program.simple.folders\favourites.json

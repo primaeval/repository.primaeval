@@ -412,7 +412,7 @@ provider-name="primaeval">
 </addon>
 
 <addon id="plugin.program.simple.favourites"
-version="0.0.13"
+version="0.1.0"
 name="Simple Favourites"
 provider-name="primaeval">
 <requires>
@@ -431,7 +431,7 @@ provider-name="primaeval">
 </addon>
 
 <addon id="plugin.program.simple.folders"
-version="0.0.10"
+version="0.0.11"
 name="Simple Folders"
 provider-name="primaeval">
 <requires>
@@ -449,54 +449,5 @@ provider-name="primaeval">
 </extension>
 </addon>
 
-<addon id="context.simple.favourites"
-version="0.0.10"
-name="Simple Favourites"
-provider-name="primaeval">
-<requires>
-  <import addon="xbmc.python" version="2.20.0"/>
-  <import addon="script.module.xbmcswift2" version="2.4.0"/>
-  <import addon="script.module.requests" version="2.9.1" />
-  <import addon="plugin.program.simple.favourites" version="0.0.10" />
-</requires>
-<extension point="kodi.context.item">
-<menu id="kodi.core.main">
-  <item library="context.py">
-    <label>Add to Simple Favourites</label>
-    <visible>True</visible>
-  </item>
-</menu>
-</extension>
-<extension point="xbmc.addon.metadata">
-  <summary lang="en">Simple Favourites Context Men</summary>
-  <description lang="en"></description>
-  <disclaimer lang="en">.</disclaimer>
-</extension>
-</addon>
-
-<addon id="context.simple.folders"
-version="0.0.2"
-name="Simple Folders"
-provider-name="primaeval">
-<requires>
-  <import addon="xbmc.python" version="2.20.0"/>
-  <import addon="script.module.xbmcswift2" version="2.4.0"/>
-  <import addon="script.module.requests" version="2.9.1" />
-  <import addon="plugin.program.simple.folders" version="0.0.2" />
-</requires>
-<extension point="kodi.context.item">
-<menu id="kodi.core.main">
-  <item library="context.py">
-    <label>Add to Simple Folders</label>
-    <visible>True</visible>
-  </item>
-</menu>
-</extension>
-<extension point="xbmc.addon.metadata">
-  <summary lang="en">Simple Folders Context Men</summary>
-  <description lang="en"></description>
-  <disclaimer lang="en">.</disclaimer>
-</extension>
-</addon>
 
 </addons>

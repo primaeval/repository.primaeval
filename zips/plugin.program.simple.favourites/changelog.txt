@@ -1,28 +1,23 @@
-version 0.0.12-13
-- removed Files menu in Add (it is in the Simple Folders only now)
+version 0.1.0
+- BIG CHANGES! EVERYTHING MUST BE RE-ADDED! SORRY!
+- New Folder Structure in addon_data\folders
+- No Context Menu
 
-version 0.0.11
+version 0.0.5-10
+- Import/Export in Add if enabled in Settings\Advanced
+- import/export file is userdata\addon_data\plugin.program.simple.folders\favourites.json
+
+version 0.0.4
+- path fix (hopefully)
+- Files and Browse are in Settings \ Advanced (they may not work on some devices)
+
+version 0.0.3
 - Files (use protocol eg c:\ http:// smb:// nfs:// special://)
 - Note: files will be filtered depending on where addon was started (Video,Music,Pictures etc)
 
-version 0.0.10
-- user icons (make a folder called userdata\addon_data\plugin.program.simple.favourites\icons)
+version 0.0.2
+- user icons (make a folder called userdata\addon_data\plugin.program.simple.folders\icons)
 - (current icons needed are: audio.png favourites.png music.png settings.png tv.png video.png)
 
-version 0.0.7-9
-- include in pictures, programs menus
-- default: include Kodi Favourites
-- default: sort everything
-
-version 0.0.6
-- Add from Kodi Favourites
-
-version 0.0.4-5
-- Setting to include Kodi Favourites
-- Change Image in context menu
-
-version 0.0.3
-- fix
-
-version 0.0.1-2
+version 0.0.1
 - first release
