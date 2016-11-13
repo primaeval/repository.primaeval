@@ -37,82 +37,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.tvlistings"
-version="0.0.5"
-name="TV Listings"
-provider-name="primaeval">
-<requires>
-  <import addon="xbmc.python" version="2.20.0"/>
-  <import addon="script.module.xbmcswift2" version="2.4.0"/>
-  <import addon="script.module.requests" version="2.9.1" />
-</requires>
-<extension point="xbmc.python.pluginsource" library="main.py">
-  <provides>video</provides>
-</extension>
-<extension point="xbmc.addon.metadata">
-  <summary lang="en">TV Listings (UK Only so far)</summary>
-  <description lang="en">TV Listings (UK Only so far). Meta4Kodi catchup playback. Addon ini files for live stream selection.</description>
-  <disclaimer lang="en">Front end to tvguide.co.uk.</disclaimer>
-</extension>
-</addon>
-
-<addon id="plugin.video.tvlistings.yo"
-version="0.0.3"
-name="TV Listings (yo.tv)"
-provider-name="primaeval">
-<requires>
-  <import addon="xbmc.python" version="2.20.0"/>
-  <import addon="script.module.xbmcswift2" version="2.4.0"/>
-  <import addon="script.module.requests" version="2.9.1" />
-</requires>
-<extension point="xbmc.python.pluginsource" library="main.py">
-  <provides>video</provides>
-</extension>
-<extension point="xbmc.addon.metadata">
-  <summary lang="en">TV Listings (yo.tv)</summary>
-  <description lang="en">TV Listings (yo.tv). Meta4Kodi catchup playback. Addon ini files for live stream selection.</description>
-  <disclaimer lang="en">Front end to yo.tv</disclaimer>
-</extension>
-</addon>
-
-<addon id="plugin.video.tvlistings.xmltv"
-version="0.2.4"
-name="TV Listings (xmltv)"
-provider-name="primaeval">
-<requires>
-  <import addon="xbmc.python" version="2.20.0"/>
-  <import addon="script.module.xbmcswift2" version="2.4.0"/>
-  <import addon="script.module.requests" version="2.9.1" />
-</requires>
-<extension point="xbmc.python.pluginsource" library="main.py">
-  <provides>video</provides>
-</extension>
-<extension point="xbmc.addon.metadata">
-  <summary lang="en">TV Listings (xmltv)</summary>
-  <description lang="en">TV Listings (xmltv). Meta4Kodi catchup playback. Addon ini files for live stream selection.</description>
-  <disclaimer lang="en">.</disclaimer>
-</extension>
-</addon>
-
-<addon
-  id="skin.naked"
-  version="0.0.2"
-  name="Naked"
-  provider-name="primaeval">
-  <requires>
-    <import addon="xbmc.gui" version="5.10.0"/>
-  </requires>
-  <extension
-    point="xbmc.gui.skin"
-    debugging="false"
-    effectslowdown="1.0">
-    <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
-  </extension>
-  <extension point="xbmc.addon.metadata">
-
-    <platform>all</platform>
-  </extension>
-</addon>
 
 <addon id="script.tvguide.fullscreen" name="TV Guide Fullscreen" version="0.0.190" provider-name="primaeval, iainmacleod, im85288, RayW1986, bluezed">
 	<requires>
@@ -412,7 +336,7 @@ provider-name="primaeval">
 </addon>
 
 <addon id="plugin.program.simple.favourites"
-version="0.1.3"
+version="0.1.4"
 name="Simple Favourites"
 provider-name="primaeval">
 <requires>
@@ -425,25 +349,6 @@ provider-name="primaeval">
 </extension>
 <extension point="xbmc.addon.metadata">
   <summary lang="en">Simple Favourites</summary>
-  <description lang="en"></description>
-  <disclaimer lang="en">.</disclaimer>
-</extension>
-</addon>
-
-<addon id="plugin.program.simple.folders"
-version="0.0.11"
-name="Simple Folders"
-provider-name="primaeval">
-<requires>
-  <import addon="xbmc.python" version="2.20.0"/>
-  <import addon="script.module.xbmcswift2" version="2.4.0"/>
-  <import addon="script.module.requests" version="2.9.1" />
-</requires>
-<extension point="xbmc.python.pluginsource" library="main.py">
-  <provides>image video audio executable</provides>
-</extension>
-<extension point="xbmc.addon.metadata">
-  <summary lang="en">Simple Folders</summary>
   <description lang="en"></description>
   <disclaimer lang="en">.</disclaimer>
 </extension>
