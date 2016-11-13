@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.program.simple.favourites"
-version="0.1.6"
+version="0.1.7"
 name="Simple Favourites"
 provider-name="primaeval">
 <requires>

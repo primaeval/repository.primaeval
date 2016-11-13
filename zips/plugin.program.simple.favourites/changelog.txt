@@ -1,4 +1,4 @@
-version 0.1.6
+version 0.1.6-7
 - Settings \ Appearance \ Show Add Button 
 -   if off look for Add Menu in Context Menu
 
