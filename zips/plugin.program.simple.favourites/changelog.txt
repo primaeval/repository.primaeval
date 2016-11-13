@@ -1,4 +1,4 @@
-version 0.1.0
+version 0.1.0-1
 - BIG CHANGES! EVERYTHING MUST BE RE-ADDED! SORRY!
 - New Folder Structure in addon_data\folders
 - No Context Menu
