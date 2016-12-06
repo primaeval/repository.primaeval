@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="context.simple.favourites"
-version="0.0.10"
-name="Simple Favourites"
+version="0.1.9"
+name="Simple Favourites Context Menu"
 provider-name="primaeval">
 <requires>
   <import addon="xbmc.python" version="2.20.0"/>
@@ -12,13 +12,13 @@ provider-name="primaeval">
 <extension point="kodi.context.item">
 <menu id="kodi.core.main">
   <item library="context.py">
-    <label>Add to Simple Favourites</label>
+    <label>[COLOR goldenrod]Simple Favourites[/COLOR]</label>
     <visible>True</visible>
   </item>
 </menu>
 </extension>
 <extension point="xbmc.addon.metadata">
-  <summary lang="en">Simple Favourites Context Men</summary>
+  <summary lang="en">Simple Favourites Context Menu</summary>
   <description lang="en"></description>
   <disclaimer lang="en">.</disclaimer>
 </extension>
