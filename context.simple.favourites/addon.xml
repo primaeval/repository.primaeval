@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="context.simple.favourites"
-version="0.1.9"
+version="0.1.10"
 name="Simple Favourites Context Menu"
 provider-name="primaeval">
 <requires>
