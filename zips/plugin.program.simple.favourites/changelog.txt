@@ -1,4 +1,4 @@
-version 0.1.9-10
+version 0.1.9-11
 - should respect the media type better now (videos, music, programs, pictures)
 - returns to Simple Favourites after playing link: ActiveWindow(media,url,return)
 - Fanart
