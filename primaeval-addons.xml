@@ -335,25 +335,6 @@ provider-name="primaeval">
 </extension>
 </addon>
 
-<addon id="plugin.program.simple.favourites"
-version="0.1.10"
-name="Simple Favourites"
-provider-name="primaeval">
-<requires>
-  <import addon="xbmc.python" version="2.20.0"/>
-  <import addon="script.module.xbmcswift2" version="2.4.0"/>
-  <import addon="script.module.requests" version="2.9.1" />
-</requires>
-<extension point="xbmc.python.pluginsource" library="main.py">
-  <provides>image video audio executable</provides>
-</extension>
-<extension point="xbmc.addon.metadata">
-  <summary lang="en">Simple Favourites</summary>
-  <description lang="en"></description>
-  <disclaimer lang="en">.</disclaimer>
-</extension>
-</addon>
-
 <addon id="plugin.video.favourites"
 version="0.0.1"
 name="Video Favourites"
@@ -416,5 +397,25 @@ provider-name="primaeval">
   <disclaimer lang="en">.</disclaimer>
 </extension>
 </addon>
+
+<addon id="plugin.program.simple.favourites"
+version="0.1.10"
+name="Simple Favourites"
+provider-name="primaeval">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>executable</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Simple Favourites</summary>
+  <description lang="en"></description>
+  <disclaimer lang="en">.</disclaimer>
+</extension>
+</addon>
+
 
 </addons>
