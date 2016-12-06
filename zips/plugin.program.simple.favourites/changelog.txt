@@ -1,8 +1,14 @@
+version 0.1.9
+- should respect the media type better now (videos, music, programs, pictures)
+- returns to Simple Favourites after playing link: ActiveWindow(media,url,return)
+- Fanart
+- Setting to turn off Edit commands in context menu
+
 version 0.1.8
 - Move to Folder
 
 version 0.1.6-7
-- Settings \ Appearance \ Show Add Button 
+- Settings \ Appearance \ Show Add Button
 -   if off look for Add Menu in Context Menu
 
 version 0.1.5
