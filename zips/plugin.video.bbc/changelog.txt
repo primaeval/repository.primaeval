@@ -1,3 +1,7 @@
+Version 0.0.3
+- mpeg-dash
+- 50fps catchup hls
+
 Version 0.0.2
 - schedules
 
