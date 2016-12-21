@@ -1,3 +1,6 @@
+Version 0.0.4
+- 50fps catchup hls fix
+
 Version 0.0.3
 - mpeg-dash
 - 50fps catchup hls
