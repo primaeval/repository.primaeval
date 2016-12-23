@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.bbc"
-version="0.0.7"
+version="0.0.8"
 name="BBC TV"
 provider-name="primaeval">
 <requires>
@@ -13,7 +13,7 @@ provider-name="primaeval">
 </extension>
 <extension point="xbmc.addon.metadata">
   <summary lang="en">BBC TV</summary>
-  <description lang="en"></description>
+  <description lang="en">BBC iPlayer with Schedules, caching, mpeg-dash, saved Searches, local Favourites.</description>
   <disclaimer lang="en">You need a UK TV License to use this addon legally. This is not a product of or endorsed by the BBC.</disclaimer>
 </extension>
 </addon>
