@@ -1,3 +1,7 @@
+Version 0.0.7
+- channel a-z
+- paging
+
 Version 0.0.6
 - date and plot
 
