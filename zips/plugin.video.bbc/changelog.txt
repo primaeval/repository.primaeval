@@ -1,3 +1,7 @@
+Version 0.0.9
+- subtitles setting
+- autoplay default on
+
 Version 0.0.8
 - colours
 
