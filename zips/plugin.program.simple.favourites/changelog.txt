@@ -1,3 +1,8 @@
+version 0.1.12
+- maintenance tool (url must be a zip containing folders tree)
+- Folder colour option
+- Folder name formatting (colour choice overrides formatting)
+
 version 0.1.9-11
 - should respect the media type better now (videos, music, programs, pictures)
 - returns to Simple Favourites after playing link: ActiveWindow(media,url,return)
