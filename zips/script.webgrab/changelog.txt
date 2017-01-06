@@ -1,3 +1,6 @@
+Version 0.0.32
+- Import WebGrab++.config.xml (delete unnecessary ini file if country is wrong)
+
 Version 0.0.31
 - siteini version check before download
 - timezone select dialog
