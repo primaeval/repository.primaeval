@@ -1,3 +1,6 @@
+Version 0.0.33
+- ask for country if multiple
+
 Version 0.0.32
 - Import WebGrab++.config.xml (delete unnecessary ini file if country is wrong)
 

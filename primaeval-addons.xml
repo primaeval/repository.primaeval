@@ -48,7 +48,7 @@
 </addon>
 
 <addon id="script.webgrab"
-version="0.0.32"
+version="0.0.33"
 name="Webgrab+Plus Configurator"
 provider-name="primaeval">
 <requires>
