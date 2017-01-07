@@ -1,2 +1,5 @@
+version 0.0.2
+- choose channel
+
 version 0.0.1
 - on your marks
