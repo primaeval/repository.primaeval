@@ -1,3 +1,7 @@
+version 0.0.6
+- pvr streams
+- clear stream
+
 version 0.0.5
 - playlist
 - import/export channel mappings
