@@ -1,3 +1,6 @@
+version 0.0.4
+- browse for channel
+
 version 0.0.2-3
 - choose channel
 
