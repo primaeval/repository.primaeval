@@ -1,3 +1,7 @@
+version 0.0.5
+- playlist
+- import/export channel mappings
+
 version 0.0.4
 - browse for channel
 
