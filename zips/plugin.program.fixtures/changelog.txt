@@ -1,3 +1,6 @@
+version 0.0.11
+- favourites fix
+
 version 0.0.10
 - non-english language pvr fix
 
