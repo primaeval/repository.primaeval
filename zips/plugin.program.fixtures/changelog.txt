@@ -1,3 +1,6 @@
+version 0.0.10
+- non-english language pvr fix
+
 version 0.0.9
 - timezone
 
