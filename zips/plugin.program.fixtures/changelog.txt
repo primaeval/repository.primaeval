@@ -1,3 +1,6 @@
+version 0.0.9
+- timezone
+
 version 0.0.8
 - stream from Favourites
 - addons.ini not necessary

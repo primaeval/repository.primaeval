@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.program.fixtures"
-version="0.0.8"
+version="0.0.9"
 name="Sports Fixtures"
 provider-name="primaeval">
 <requires>
