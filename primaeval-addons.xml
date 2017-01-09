@@ -252,7 +252,7 @@ provider-name="primaeval">
 </addon>
 
 <addon id="plugin.program.fixtures"
-version="0.0.7"
+version="0.0.8"
 name="Sports Fixtures"
 provider-name="primaeval">
 <requires>

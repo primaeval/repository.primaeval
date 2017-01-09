@@ -1,3 +1,8 @@
+version 0.0.8
+- stream from Favourites
+- addons.ini not necessary
+- addon names in Browse
+
 version 0.0.7
 - alternative streaming method (channel context menu)
 
