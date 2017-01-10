@@ -90,7 +90,7 @@ provider-name="primaeval">
 
 
 <addon id="plugin.video.addons.ini.creator"
-version="0.0.6"
+version="0.0.7"
 name="addons.ini Creator"
 provider-name="primaeval">
 <requires>
