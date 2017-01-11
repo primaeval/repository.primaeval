@@ -1,3 +1,6 @@
+version 0.0.12
+- channels menu
+
 version 0.0.11
 - favourites fix
 
