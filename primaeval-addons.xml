@@ -334,7 +334,7 @@ provider-name="primaeval">
 </addon>
 
 <addon id="plugin.video.addons.ini.player"
-version="0.0.2"
+version="0.0.3"
 name="addons.ini Player"
 provider-name="primaeval">
 <requires>
