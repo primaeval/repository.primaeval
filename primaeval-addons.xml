@@ -333,4 +333,24 @@ provider-name="primaeval">
 </extension>
 </addon>
 
+<addon id="plugin.video.addons.ini.player"
+version="0.0.2"
+name="addons.ini Player"
+provider-name="primaeval">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.service" library="service.py" start="login"/>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">addons.ini Player</summary>
+  <description lang="en"></description>
+  <disclaimer lang="en">.</disclaimer>
+</extension>
+</addon>
+
 </addons>
