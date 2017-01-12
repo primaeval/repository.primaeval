@@ -1,4 +1,4 @@
-version 0.0.3
+version 0.0.3-4
 - export channels to userdata\addon_data\plugin.video.stream.searcher\stream_searcher_export.ini
 
 version 0.0.1-2
