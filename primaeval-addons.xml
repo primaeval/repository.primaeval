@@ -354,7 +354,7 @@ provider-name="primaeval">
 </addon>
 
 <addon id="plugin.video.playlist.player"
-version="0.0.1"
+version="0.0.2"
 name="Playlist Player"
 provider-name="primaeval">
 <requires>
