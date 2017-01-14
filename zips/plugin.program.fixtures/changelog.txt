@@ -1,4 +1,4 @@
-version 0.0.16
+version 0.0.16-17
 - Settings \ Stop After Autoplay
 
 version 0.0.15
