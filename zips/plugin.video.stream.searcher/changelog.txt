@@ -1,3 +1,8 @@
+version 0.0.5
+- folder caching
+- Settings \ Refresh Folders Period (hours)
+- Folders \ context \ Reset Cache
+
 version 0.0.3-4
 - export channels to userdata\addon_data\plugin.video.stream.searcher\stream_searcher_export.ini
 
