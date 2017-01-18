@@ -1,3 +1,6 @@
+version 0.1.13
+- folder passwords
+
 version 0.1.12
 - maintenance tool (url must be a zip containing folders tree)
 - Folder colour option
