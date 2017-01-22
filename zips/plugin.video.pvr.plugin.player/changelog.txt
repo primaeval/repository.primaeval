@@ -1,3 +1,7 @@
+version 0.0.3
+- import .xmltv channels
+- time of day cache update timer
+
 version 0.0.2
 - multiple labels fix (clear your folder cache)
 
