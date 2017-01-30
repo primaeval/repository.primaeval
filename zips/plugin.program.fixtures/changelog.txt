@@ -1,3 +1,6 @@
+version 0.0.19
+- new icon
+
 version 0.0.16-18
 - Settings \ Stop After Autoplay
 
