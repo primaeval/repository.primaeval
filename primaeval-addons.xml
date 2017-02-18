@@ -233,7 +233,7 @@ provider-name="primaeval">
 
 <addon
   id="skin.confluence.wall"
-  version="0.0.3"
+  version="0.0.4"
   name="Confluence Wall"
   provider-name="primaeval">
   <requires>
