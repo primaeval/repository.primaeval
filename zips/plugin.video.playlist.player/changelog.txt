@@ -1,4 +1,4 @@
-version 0.0.3
+version 0.0.3-4
 - dialog or list view
 - delete unresponsive playlists
 
