@@ -1,3 +1,6 @@
+version 0.0.7
+- Settings \ Timer \ Clear Folders First
+
 version 0.0.6
 - Settings \ Show Folder Name in Search (Folders need to be re-added!)
 
