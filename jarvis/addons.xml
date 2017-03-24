@@ -376,9 +376,9 @@ provider-name="primaeval">
 	</extension>
 </addon>
 
-<addon id="repository.primaeval.test"
+<addon id="repository.primaeval"
         name="primaeval's beta dev repository"
-        version="0.0.1"
+        version="0.0.2"
         provider-name="primaeval">
     <requires>
         <import addon="xbmc.addon" version="16.0.0"/>
@@ -386,14 +386,14 @@ provider-name="primaeval">
     <extension point="xbmc.addon.repository"
         name="primaeval's beta dev repository">
         <dir minversion="16.0.0">
-            <info compressed="false">https://github.com/primaeval/repository.primaeval.test/raw/master/jarvis/addons.xml</info>
-            <checksum>https://github.com/primaeval/repository.primaeval.test/raw/master/jarvis/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.github.com/primaeval/repository.primaeval.test/master/jarvis/</datadir>
+            <info compressed="false">https://github.com/primaeval/repository.primaeval/raw/master/jarvis/addons.xml</info>
+            <checksum>https://github.com/primaeval/repository.primaeval/raw/master/jarvis/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.github.com/primaeval/repository.primaeval/master/jarvis/</datadir>
         </dir>
         <dir minversion="17.0.0">
-            <info compressed="false">https://github.com/primaeval/repository.primaeval.test/raw/master/krypton/addons.xml</info>
-            <checksum>https://github.com/primaeval/repository.primaeval.test/raw/master/krypton/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.github.com/primaeval/repository.primaeval.test/master/krypton/</datadir>
+            <info compressed="false">https://github.com/primaeval/repository.primaeval/raw/master/krypton/addons.xml</info>
+            <checksum>https://github.com/primaeval/repository.primaeval/raw/master/krypton/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.github.com/primaeval/repository.primaeval/master/krypton/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
