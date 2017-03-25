@@ -26,7 +26,7 @@
     </extension>
 </addon>
 
-<addon id="script.tvguide.fullscreen.skin.kjb85.test" name="TV Guide Fullscreen - kjb85 Skin" version="0.17.1" provider-name="kjb85">
+<addon id="script.tvguide.fullscreen.skin.kjb85.test" name="TV Guide Fullscreen - kjb85 Skin" version="0.17.2" provider-name="kjb85">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.tvguide.fullscreen" version="0.0.321"/>
