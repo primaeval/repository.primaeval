@@ -442,7 +442,7 @@ provider-name="primaeval">
     </extension>
 </addon>
 
-<addon id="script.tvguide.fullscreen.skin.kjb85.test" name="TV Guide Fullscreen - kjb85 Skin" version="0.0.3" provider-name="kjb85">
+<addon id="script.tvguide.fullscreen.skin.kjb85" name="TV Guide Fullscreen - KJB Skin" version="0.0.4" provider-name="kjb85">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.tvguide.fullscreen" version="0.0.321"/>
@@ -451,7 +451,7 @@ provider-name="primaeval">
             <provides>executable</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <description lang="en">kjb85 Skin for TV Guide Fullscreen</description>
+        <description lang="en">KJB Skin for TV Guide Fullscreen[CR]For optimal display please change the following settings:[CR]Background/EPG Timebar Colour=green[CR]Background/EPG Text Highlight Colour=gray[CR]Appearance/Small EPG Preview Window=on[CR]Appearance/Scale Program Image=off[CR]Appearance/Show Channel Logo in EPG above Program Image=on</description>
         <disclaimer lang="en"></disclaimer>
         <language></language>
         <platform>all</platform>
@@ -460,6 +460,12 @@ provider-name="primaeval">
         <source>https://github.com/primaeval/script.tvguide.fullscreen</source>
         <website></website>
         <email>kjb85</email>
+        <assets>
+            <icon>icon.png</icon>
+            <screenshot>screenshot1.png</screenshot>
+            <screenshot>screenshot2.png</screenshot>
+            <screenshot>screenshot3.png</screenshot>
+        </assets>
     </extension>
 </addon>
 
