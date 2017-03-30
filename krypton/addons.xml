@@ -53,6 +53,34 @@
     </extension>
 </addon>
 
+<addon id="script.tvguide.fullscreen.skin.tycoo" name="TV Guide Fullscreen - White Snow Skin" version="0.17.4" provider-name="tycoo">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="addon.py">
+            <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">tycoo's White Snow skin for TV Guide Fullscreen</summary>
+        <description lang="en">CustomFont Setup:[CR]1. Add Muli-ExtraBold.ttf (inside zip) into your skin addon folder: /addons/'yourskinfolder'/font/ (Example: /addons/skin.aeon.nox.silvo/font/)[CR]2. Open TVGuide_Muli-ExtraBold.txt, copy and paste into font.xml inside /addons/'yourskinfolder'/1080i/font.xml[CR]3. Restart Kodi[CR]Don't forget to calibrate your gamma :D</description>
+        <disclaimer lang="en"></disclaimer>
+        <language></language>
+        <platform>all</platform>
+        <license>GPLv2</license>
+        <forum>http://forum.kodi.tv/showthread.php?tid=282157</forum>
+        <source>https://github.com/primaeval/script.tvguide.fullscreen</source>
+        <website></website>
+        <email></email>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <screenshot>resources/screenshot000.jpg</screenshot>
+            <screenshot>resources/screenshot001.jpg</screenshot>
+            <screenshot>resources/screenshot002.jpg</screenshot>
+            <screenshot>resources/screenshot003.jpg</screenshot>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="skin.estuary.wall" version="1.9.10" name="Estuary Wall" provider-name="primaeval, original: phil65, Ichabod Fletchman">
 	<requires>
 		<import addon="xbmc.gui" version="5.12.0"/>
