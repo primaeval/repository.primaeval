@@ -552,9 +552,9 @@ provider-name="primaeval">
   </extension>
 </addon>
 
-<addon id="script.skin.tightener" name="Skin Tightener" version="0.0.1" provider-name="primaeval">
+<addon id="script.skin.tightener" name="Skin Tightener" version="0.0.2" provider-name="primaeval">
     <requires>
-        <import addon="xbmc.python" version="2.25.0"/>
+        <import addon="xbmc.python" version="2.19.0"/>
     </requires>
     <extension point="xbmc.python.script" library="addon.py">
             <provides>executable</provides>
@@ -571,6 +571,7 @@ provider-name="primaeval">
         <email>primaeval</email>
     </extension>
 </addon>
+
 
 
 </addons>
