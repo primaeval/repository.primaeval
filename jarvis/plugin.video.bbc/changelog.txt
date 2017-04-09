@@ -1,3 +1,6 @@
+Version 0.0.10
+- live max bandwidth
+
 Version 0.0.9
 - subtitles setting
 - autoplay default on
