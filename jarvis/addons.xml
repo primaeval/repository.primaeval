@@ -572,6 +572,24 @@ provider-name="primaeval">
     </extension>
 </addon>
 
-
+<addon id="plugin.video.hls.playlist.player"
+version="0.0.1"
+name="HLS Playlist Player"
+provider-name="primaeval">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.service" library="service.py" start="login"/>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Autoplay HLS stream based on Bandwidth</summary>
+  <description lang="en">Add Playlists containing HLS stream links. Play them with an optional max bandwidth limit. Recreates the functionality of Jarvis.</description>
+  <disclaimer lang="en">.</disclaimer>
+</extension>
+</addon>
 
 </addons>
