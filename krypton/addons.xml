@@ -53,16 +53,17 @@
     </extension>
 </addon>
 
-<addon id="script.tvguide.fullscreen.skin.tycoo" name="TV Guide Fullscreen - White Snow Skin" version="0.17.4" provider-name="tycoo">
+<addon id="script.tvguide.fullscreen.skin.tycoo" name="TV Guide Fullscreen - White Snow Skin" version="0.17.5" provider-name="tycoo">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
+        <import addon="script.tvguide.fullscreen" version="0.0.324"/>
     </requires>
     <extension point="xbmc.python.script" library="addon.py">
             <provides>executable</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">tycoo's White Snow skin for TV Guide Fullscreen</summary>
-        <description lang="en">CustomFont Setup:[CR]1. Add Muli-ExtraBold.ttf (inside zip) into your skin addon folder: /addons/'yourskinfolder'/font/ (Example: /addons/skin.aeon.nox.silvo/font/)[CR]2. Open TVGuide_Muli-ExtraBold.txt, copy and paste into font.xml inside /addons/'yourskinfolder'/1080i/font.xml[CR]3. Restart Kodi[CR]Don't forget to calibrate your gamma :D</description>
+        <description lang="en">CustomFont Setup:[CR]1. Add Muli-ExtraBold.ttf (inside zip) into your skin addon folder: /addons/'yourskinfolder'/font/ (Example: /addons/skin.aeon.nox.silvo/font/)[CR]2. Open TVGuide_Muli-ExtraBold.txt, copy and paste into font.xml inside /addons/'yourskinfolder'/1080i/font.xml[CR]3. Restart Kodi.[CR]Don't forget to calibrate your gamma :D</description>
         <disclaimer lang="en"></disclaimer>
         <language></language>
         <platform>all</platform>

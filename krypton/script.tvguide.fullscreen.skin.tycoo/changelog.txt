@@ -1,2 +1,5 @@
+version 0.17.5
+- add question mark / help marker to show up all the invisible buttons
+
 version 0.17.4
 - initial release

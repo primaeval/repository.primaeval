@@ -470,7 +470,7 @@ provider-name="primaeval">
     </extension>
 </addon>
 
-<addon id="script.tvguide.fullscreen.skin.tycoo" name="TV Guide Fullscreen - White Snow Skin" version="0.0.4" provider-name="tycoo">
+<addon id="script.tvguide.fullscreen.skin.tycoo" name="TV Guide Fullscreen - White Snow Skin" version="0.0.5" provider-name="tycoo">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.tvguide.fullscreen" version="0.0.324"/>
