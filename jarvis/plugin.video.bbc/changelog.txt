@@ -1,3 +1,6 @@
+Version 0.0.12
+- emergency proxy
+
 Version 0.0.11
 - make live playlist (userdata\addon_data\plugin.video.bbc\BBC.strm)
 
