@@ -1,2 +1,5 @@
+version 0.0.2
+- Onyx with Categories
+
 version 0.0.1
 - start here
