@@ -213,7 +213,7 @@ provider-name="primaeval">
 </addon>
 
 
-<addon id="plugin.video.iplayerwww" name="iPlayer WWW" version="2.5.6p4" provider-name="CaptainT, Cas, ihurst, primaeval">
+<addon id="plugin.video.iplayerwww" name="iPlayer WWW" version="2.5.8p" provider-name="CaptainT, Cas, ihurst, primaeval">
   <requires>
     <import addon="xbmc.python" version="2.19.0"/>
     <import addon="script.module.requests" version="2.7.0"/>
@@ -233,6 +233,7 @@ provider-name="primaeval">
     <disclaimer>This add-on is a front end to the BBC iPlayer website. It is not an official BBC product. A UK TV Licence is required to watch the live, catch-up, or on-demand TV content.</disclaimer>
   </extension>
 </addon>
+
 
 <addon id="plugin.video.playlist.player"
 version="0.0.4"
