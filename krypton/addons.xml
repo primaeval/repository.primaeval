@@ -28,7 +28,7 @@ provider-name="primaeval">
     </extension>
 </addon>
 
-<addon id="script.tvguide.fullscreen.skin.onyx" name="TV Guide Fullscreen - Onyx Skin" version="0.17.3" provider-name="primaeval">
+<addon id="script.tvguide.fullscreen.skin.onyx" name="TV Guide Fullscreen - Onyx Skin" version="0.17.5" provider-name="primaeval">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.tvguide.fullscreen" version="0.0.321"/>
@@ -52,6 +52,7 @@ provider-name="primaeval">
         </assets>
     </extension>
 </addon>
+
 
 <addon id="script.tvguide.fullscreen.skin.kjb85" name="TV Guide Fullscreen - KJB Skin" version="0.17.4" provider-name="kjb85">
     <requires>

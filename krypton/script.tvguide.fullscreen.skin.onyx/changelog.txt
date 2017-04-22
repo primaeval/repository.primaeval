@@ -1,3 +1,6 @@
+version 0.0.5
+- missing controls
+
 version 0.0.4
 - fix
 
