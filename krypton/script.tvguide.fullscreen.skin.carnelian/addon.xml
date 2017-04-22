@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.tvguide.fullscreen.skin.carnelian" name="TV Guide Fullscreen - Carnelian Skin" version="0.17.1" provider-name="primaeval">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0"/>
+        <import addon="script.tvguide.fullscreen" version="0.0.321"/>
+    </requires>
+    <extension point="xbmc.python.script" library="addon.py">
+            <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <description lang="en"></description>
+        <disclaimer lang="en"></disclaimer>
+        <language></language>
+        <platform>all</platform>
+        <license>GPLv2</license>
+        <forum>http://forum.kodi.tv/showthread.php?tid=282157</forum>
+        <source>https://github.com/primaeval/script.tvguide.fullscreen</source>
+        <website></website>
+        <email>primaeval</email>
+        <assets>
+            <icon>icon.png</icon>
+            <screenshot></screenshot>
+        </assets>
+    </extension>
+</addon>
