@@ -1,0 +1,14 @@
+version 0.0.5
+- missing controls
+
+version 0.0.4
+- fix
+
+version 0.0.3
+- tweaks
+
+version 0.0.2
+- Onyx with Categories
+
+version 0.0.1
+- start here
