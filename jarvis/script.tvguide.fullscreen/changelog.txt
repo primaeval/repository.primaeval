@@ -1,3 +1,6 @@
+version 0.0.339
+- Settings \ Logos \ Crop and Resize Logo Folder
+
 version 0.0.338
 - on-top time bar (skinners: preload tvgf-timebar.png (see Default))
 
@@ -22,7 +25,7 @@ version 0.0.332
 - support for White Snow skin Help button
 
 version 0.17.331
-- Krypton fix for HLS m3u stream urls like Jarvis (play start should be much faster)
+- Settings \ Playback \ Use highest bandwidth stream from m3u url (Krypton+ fix)
 
 version 0.0.330
 - integration with VPN Manager for OpenVPN from Zomboided (https://github.com/Zomboided/service.vpn.manager)
