@@ -153,7 +153,7 @@ provider-name="primaeval">
 
 
 <addon id="plugin.video.bbc"
-version="0.0.13"
+version="0.0.14"
 name="BBC TV"
 provider-name="primaeval">
 <requires>
@@ -212,27 +212,6 @@ provider-name="primaeval">
 </extension>
 </addon>
 
-
-<addon id="plugin.video.iplayerwww" name="iPlayer WWW" version="2.5.8p" provider-name="CaptainT, Cas, ihurst, primaeval">
-  <requires>
-    <import addon="xbmc.python" version="2.19.0"/>
-    <import addon="script.module.requests" version="2.7.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>audio video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">TV and Radio from BBC iPlayer</summary>
-    <description lang="en">This add-on enables playing of Live and Catchup TV (UK only) and Radio content (UK or international) from the BBC iPlayer website. It is not created, maintained or in any way affiliated with the BBC. The add-on only provides an interface to access the BBC iPlayer website from Kodi.</description>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <forum>http://forum.kodi.tv/showthread.php?tid=239378</forum>
-    <website></website>
-    <email></email>
-    <source>https://github.com/vonH/plugin.video.iplayerwww</source>
-    <disclaimer>This add-on is a front end to the BBC iPlayer website. It is not an official BBC product. A UK TV Licence is required to watch the live, catch-up, or on-demand TV content.</disclaimer>
-  </extension>
-</addon>
 
 
 <addon id="plugin.video.playlist.player"
