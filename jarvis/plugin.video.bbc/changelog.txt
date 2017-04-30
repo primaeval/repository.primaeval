@@ -1,3 +1,6 @@
+Version 0.0.15
+- skip https streams (for Jarvis)
+
 Version 0.0.14
 - pvr
 
