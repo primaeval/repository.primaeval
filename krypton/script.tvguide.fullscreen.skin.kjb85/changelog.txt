@@ -1,4 +1,4 @@
-version 0.17.5
+version 0.17.5-6
 - OSD update
 
 version 0.17.4
