@@ -70,7 +70,7 @@ provider-name="primaeval">
 
 
 <addon id="plugin.program.fixtures"
-version="0.0.23"
+version="0.0.24"
 name="Sports Fixtures"
 provider-name="primaeval">
 <requires>

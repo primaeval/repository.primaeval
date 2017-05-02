@@ -1,3 +1,6 @@
+version 0.0.24
+- Settings \ Play Match if Only One Channel
+
 version 0.0.23
 - Search
 - playable stations are at the top of the list now
