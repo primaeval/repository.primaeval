@@ -1,3 +1,6 @@
+version 0.0.5
+- OSD update
+
 version 0.0.4
 - OSD update
 - changed timebar

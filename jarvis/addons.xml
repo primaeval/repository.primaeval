@@ -519,7 +519,7 @@ provider-name="primaeval">
     </extension>
 </addon>
 
-<addon id="script.tvguide.fullscreen.skin.kjb85" name="TV Guide Fullscreen - KJB Skin" version="0.0.4" provider-name="kjb85">
+<addon id="script.tvguide.fullscreen.skin.kjb85" name="TV Guide Fullscreen - KJB Skin" version="0.0.5" provider-name="kjb85">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.tvguide.fullscreen" version="0.0.321"/>
