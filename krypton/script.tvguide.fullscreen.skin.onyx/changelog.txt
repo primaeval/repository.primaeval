@@ -1,3 +1,6 @@
+version 0.0.6
+- white progress
+
 version 0.0.5
 - missing controls
 
