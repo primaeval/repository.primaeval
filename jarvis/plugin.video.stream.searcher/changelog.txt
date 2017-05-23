@@ -1,3 +1,6 @@
+version 0.0.6
+- autoplay if only one match
+
 version 0.0.5
 - folder caching
 - Settings \ Refresh Folders Period (hours)

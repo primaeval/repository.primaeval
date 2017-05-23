@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.stream.searcher"
-version="0.0.5"
+version="0.0.6"
 name="Stream Searcher"
 provider-name="primaeval">
 <requires>
@@ -13,8 +13,7 @@ provider-name="primaeval">
 </extension>
 <extension point="xbmc.addon.metadata">
   <summary lang="en">Stream Searcher</summary>
-  <description lang="en"></description>
-  <disclaimer lang="en">.</disclaimer>
+  <description lang="en">Use Context Menus[CR]Add Folders with Live TV Streams[CR]Add Channels to match Streams[CR]Add Channels folder into TV Guide Fullscreen[CR]Channel matches are lowercase ignoring spaces</description>
 </extension>
 </addon>
 
