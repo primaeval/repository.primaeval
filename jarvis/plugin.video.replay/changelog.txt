@@ -1,2 +1,5 @@
+version 0.0.2
+- unicode fix
+
 version 0.0.1
 - first release
