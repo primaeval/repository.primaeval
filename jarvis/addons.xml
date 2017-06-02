@@ -417,7 +417,7 @@ provider-name="primaeval">
 </addon>
 
 <addon id="script.tvguide.fullscreen" name="TV Guide Fullscreen"
-version="0.0.343"
+version="0.0.344"
 provider-name="primaeval">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
