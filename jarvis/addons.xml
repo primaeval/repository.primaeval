@@ -256,7 +256,7 @@ provider-name="primaeval">
 
 
 <addon id="plugin.video.pvr.plugin.player"
-version="0.0.9"
+version="0.0.10"
 name="PVR Plugin Player"
 provider-name="primaeval">
 <requires>
