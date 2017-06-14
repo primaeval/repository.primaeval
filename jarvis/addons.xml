@@ -670,7 +670,7 @@ provider-name="primaeval">
 </addon>
 
 <addon id="plugin.video.rageagain.again"
-version="0.0.2"
+version="0.0.3"
 name="Rage Again (again)"
 provider-name="primaeval">
 <requires>

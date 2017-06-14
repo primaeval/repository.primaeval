@@ -1,2 +1,5 @@
+Version 0.0.3
+- android jarvis fix
+
 Version 0.0.1
 - first release
