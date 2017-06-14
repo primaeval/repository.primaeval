@@ -669,4 +669,24 @@ provider-name="primaeval">
 </extension>
 </addon>
 
+<addon id="plugin.video.rageagain.again"
+version="0.0.2"
+name="Rage Again (again)"
+provider-name="primaeval">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+  <import addon="plugin.video.youtube" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Rage Again</summary>
+  <description lang="en">Front end to rageagain.com. Rage is an Australian music video tv show.</description>
+  <disclaimer lang="en"></disclaimer>
+</extension>
+</addon>
+
 </addons>
