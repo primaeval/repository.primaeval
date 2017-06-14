@@ -1,3 +1,8 @@
+Version 0.0.4
+- setting to scrape whole site to Kodi Library
+- add this folder to Video \ Files and set the contents to Music Videos
+- userdata\addon_data\plugin.video.rageagain.again\Music Videos
+
 Version 0.0.3
 - android jarvis fix
 

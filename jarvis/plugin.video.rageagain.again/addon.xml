@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.rageagain.again"
-version="0.0.3"
+version="0.0.4"
 name="Rage Again (again)"
 provider-name="primaeval">
 <requires>
