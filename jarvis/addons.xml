@@ -689,4 +689,29 @@ provider-name="primaeval">
 </extension>
 </addon>
 
+<addon id="plugin.video.boilerroom" name="Boiler Room" version="1.0.0p" provider-name="Norin">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <language>en</language>
+    <summary lang="en">Boiler Room music videos and live events</summary>
+    <summary lang="pt">Vídeos e eventos de música da Boiler Room </summary>
+    
+    
+    <description lang="en">Boiler Room videos and live events</description>
+    <description lang="pt">Vídeos e eventos ao vivo da Boiler Room</description>
+    
+    <disclaimer lang="en">The author is not affiliated either with Boiler Room nor the XBMC Foundation</disclaimer>
+    <disclaimer lang="pt">O autor do plugin não tem qualquer relação com a Boiler Room nem com a XBMC Foundation</disclaimer>
+    
+    <source></source>
+    <website>http://boilerroom.tv/</website>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 </addons>
