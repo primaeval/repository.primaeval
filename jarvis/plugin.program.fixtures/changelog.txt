@@ -1,3 +1,6 @@
+version 0.0.25
+- switched to BBC Sports
+
 version 0.0.24
 - Settings \ Play Match if Only One Channel
 

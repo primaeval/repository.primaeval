@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.program.fixtures"
-version="0.0.24"
+version="0.0.25"
 name="Sports Fixtures"
 provider-name="primaeval">
 <requires>
@@ -16,7 +16,7 @@ provider-name="primaeval">
 <extension point="xbmc.addon.metadata">
   <summary lang="en">Sports Fixtures</summary>
   <description lang="en">Sports Fixtures with Channel Information.</description>
-  <disclaimer lang="en">Unofficial front end to www.getyourfixtures.com</disclaimer>
+  <disclaimer lang="en">Unofficial front end to BBC Sports</disclaimer>
 </extension>
 </addon>
 
