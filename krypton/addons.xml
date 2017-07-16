@@ -2,7 +2,7 @@
 <addons>
 
 <addon id="script.tvguide.fullscreen" name="TV Guide Fullscreen"
-version="0.17.350"
+version="0.17.351"
 provider-name="primaeval">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
@@ -26,8 +26,7 @@ provider-name="primaeval">
         <source>https://github.com/primaeval/script.tvguide.fullscreen</source>
         <website>https://github.com/primaeval/script.tvguide.fullscreen</website>
         <email>primaeval</email>
-        <news>version 0.17.350
-- re-enable ActivateWindow Favourites shortcut to play Folders
+        <news>
         </news>
     </extension>
 </addon>
