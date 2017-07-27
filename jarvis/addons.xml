@@ -70,7 +70,7 @@ provider-name="primaeval">
 
 
 <addon id="plugin.program.fixtures"
-version="0.0.27"
+version="0.0.28"
 name="Sports Fixtures"
 provider-name="primaeval">
 <requires>
@@ -79,6 +79,7 @@ provider-name="primaeval">
   <import addon="script.module.requests" version="2.9.1" />
   <import addon="script.module.pil" />
   <import addon="script.module.beautifulsoup4" />
+  <import addon="script.module.dateutil" version="2.4.2" />
 </requires>
 <extension point="xbmc.python.pluginsource" library="main.py">
   <provides>executable</provides>
@@ -89,6 +90,7 @@ provider-name="primaeval">
   <disclaimer lang="en">Unofficial front end to BBC Sports</disclaimer>
 </extension>
 </addon>
+
 
 
 <addon id="plugin.program.simple.favourites"
