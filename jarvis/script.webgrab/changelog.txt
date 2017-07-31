@@ -1,3 +1,6 @@
+Version 0.0.36
+- v2 device wizard paths
+
 Version 0.0.34-35
 - import and append to selected channels by file order
 
