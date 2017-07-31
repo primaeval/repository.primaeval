@@ -1,3 +1,21 @@
+version 0.0.356-358
+- look for tvg-id in Optional \ Import m3u and m3u Subscriptions
+- %y movie year for Catchup Addons url format
+
+version 0.0.352-355
+- multiple Catchup Addons in Lab1 \ Manage Catchup Urls
+- Catchup Addon dialog via Lab1 \ Ask to Catchup
+- removed ffmpeg chmod
+- only download tvgf backgrounds
+
+version 0.0.351
+- Settings \ Appearance \ Show Addon Logo in EPG above Program Image
+- use controls 44025 and 44026 for addon logo and name in main xml file
+- Settings \ Lab1 \ Catchup url
+- Catchup Command Action and Button
+- eg plugin://plugin.video.XXX/catchup/%I/%Y-%m-%d:%H-%M/%T/%D
+- Catchup Addon button is hidden in Default skin and has id 4017
+
 version 0.0.350
 - re-enable ActivateWindow Favourites shortcut to play Folders
 

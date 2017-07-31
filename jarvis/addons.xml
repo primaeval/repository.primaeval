@@ -70,7 +70,7 @@ provider-name="primaeval">
 
 
 <addon id="plugin.program.fixtures"
-version="0.0.24"
+version="0.0.29"
 name="Sports Fixtures"
 provider-name="primaeval">
 <requires>
@@ -79,6 +79,7 @@ provider-name="primaeval">
   <import addon="script.module.requests" version="2.9.1" />
   <import addon="script.module.pil" />
   <import addon="script.module.beautifulsoup4" />
+  <import addon="script.module.dateutil" version="2.4.2" />
 </requires>
 <extension point="xbmc.python.pluginsource" library="main.py">
   <provides>executable</provides>
@@ -86,9 +87,10 @@ provider-name="primaeval">
 <extension point="xbmc.addon.metadata">
   <summary lang="en">Sports Fixtures</summary>
   <description lang="en">Sports Fixtures with Channel Information.</description>
-  <disclaimer lang="en">Unofficial front end to www.getyourfixtures.com</disclaimer>
+  <disclaimer lang="en">Unofficial front end to BBC Sports</disclaimer>
 </extension>
 </addon>
+
 
 
 <addon id="plugin.program.simple.favourites"
@@ -417,7 +419,7 @@ provider-name="primaeval">
 </addon>
 
 <addon id="script.tvguide.fullscreen" name="TV Guide Fullscreen"
-version="0.0.350"
+version="0.0.358"
 provider-name="primaeval">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
@@ -686,6 +688,51 @@ provider-name="primaeval">
   <summary lang="en">Rage Again</summary>
   <description lang="en">Front end to rageagain.com. Rage is an Australian music video tv show.</description>
   <disclaimer lang="en"></disclaimer>
+</extension>
+</addon>
+
+<addon id="plugin.video.boilerroom" name="Boiler Room" version="1.0.0p" provider-name="Norin">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <language>en</language>
+    <summary lang="en">Boiler Room music videos and live events</summary>
+    <summary lang="pt">Vídeos e eventos de música da Boiler Room </summary>
+    
+    
+    <description lang="en">Boiler Room videos and live events</description>
+    <description lang="pt">Vídeos e eventos ao vivo da Boiler Room</description>
+    
+    <disclaimer lang="en">The author is not affiliated either with Boiler Room nor the XBMC Foundation</disclaimer>
+    <disclaimer lang="pt">O autor do plugin não tem qualquer relação com a Boiler Room nem com a XBMC Foundation</disclaimer>
+    
+    <source></source>
+    <website>http://boilerroom.tv/</website>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.tvlistings.xmltv"
+version="0.2.5"
+name="TV Listings (xmltv)"
+provider-name="primaeval">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.service" library="service.py" start="login"/>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">TV Listings (xmltv)</summary>
+  <description lang="en">TV Listings (xmltv). Meta4Kodi catchup playback. Addon ini files for live stream selection.</description>
+  <disclaimer lang="en">.</disclaimer>
 </extension>
 </addon>
 
