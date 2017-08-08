@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="script.webgrab"
-version="0.0.36"
+version="0.0.37"
 name="Webgrab+Plus Configurator"
 provider-name="primaeval">
 <requires>

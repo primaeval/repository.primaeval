@@ -1,3 +1,6 @@
+Version 0.0.37
+- local appdata path (thanks MikeKL)
+
 Version 0.0.36
 - v2 device wizard paths
 
