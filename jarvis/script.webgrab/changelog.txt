@@ -1,4 +1,4 @@
-Version 0.0.37-38
+Version 0.0.37-39
 - local appdata path (thanks MikeKL)
 
 Version 0.0.36
