@@ -61,15 +61,22 @@ script.tvguide.fullscreen.skin.tycoo
 script.tvguide.fullscreen.skin.kjb85
 "
 
-
+for branch in jarvis krypton; do
+	mkdir $branch
+	echo "<?xml version="1.0" encoding="UTF-8" standalone="yes"?>" > $branch/addons.xml
+	echo "<addons>" >> $branch/addons.xml
+done
 
 rm .gitignore
 for raw_branch in $branches; do
 	echo $raw_branch
 	branch=${raw_branch#*_}
 	mkdir $branch
-	echo "<?xml version="1.0" encoding="UTF-8" standalone="yes"?>" > $branch/addons.xml
-	echo "<addons>" >> $branch/addons.xml
+
+	if [ $raw_branch == "master_jarvis" ] ; then
+		tail -n+2 jarvis/repository.primaeval/addon.xml >> jarvis/addons.xml
+		tail -n+2 jarvis/repository.imdbsearch/addon.xml >> jarvis/addons.xml
+	fi
 	for addon in ${!raw_branch}; do
 		echo $addon
 		echo /$addon >> .gitignore
@@ -90,14 +97,18 @@ for raw_branch in $branches; do
 			mkdir $branch/$addon/resources/
 			for file in icon.png fanart.jpg screenshot*.jpg; do
 				cp $addon/resources/$file $branch/$addon/resources/
-			done		
+			done
 			for file in screenshot*.png; do
 				cp $addon/$file $branch/$addon/
-			done			
+			done
 		fi
 		/c/Program\ Files/7-Zip/7z.exe a -xr@exclude $branch/$addon/$addon-${tag#v}.zip $addon
-		tail -n+2 $addon/addon.xml >> $branch/addons.xml 
+		tail -n+2 $addon/addon.xml >> $branch/addons.xml
 	done
+done
+
+for branch in jarvis krypton ; do
 	echo "</addons>" >> $branch/addons.xml
 	(cd $branch && md5sum addons.xml > addons.xml.md5)
 done
+

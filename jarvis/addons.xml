@@ -1,5 +1,662 @@
 <?xml version=1.0 encoding=UTF-8 standalone=yes?>
 <addons>
+<addon id="repository.primaeval"
+        name="primaeval's beta dev repository"
+        version="0.0.2"
+        provider-name="primaeval">
+    <requires>
+        <import addon="xbmc.addon" version="16.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository"
+        name="primaeval's beta dev repository">
+        <dir minversion="16.0.0">
+            <info compressed="false">https://github.com/primaeval/repository.primaeval/raw/master/jarvis/addons.xml</info>
+            <checksum>https://github.com/primaeval/repository.primaeval/raw/master/jarvis/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.github.com/primaeval/repository.primaeval/master/jarvis/</datadir>
+        </dir>
+        <dir minversion="17.0.0">
+            <info compressed="false">https://github.com/primaeval/repository.primaeval/raw/master/krypton/addons.xml</info>
+            <checksum>https://github.com/primaeval/repository.primaeval/raw/master/krypton/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.github.com/primaeval/repository.primaeval/master/krypton/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+    </extension>
+</addon>
+<addon id="repository.imdbsearch"
+		name="IMDb Search Addon Repository"
+		version="0.0.1"
+		provider-name="primaeval">
+	<extension point="xbmc.addon.repository"
+		name="IMDb Search Addon Repository">
+		<dir>
+			<info compressed="false">https://github.com/primaeval/repository.imdbsearch/raw/master/imdbsearch-addons.xml</info>
+			<checksum>https://github.com/primaeval/repository.imdbsearch/raw/master/imdbsearch-addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.github.com/primaeval/repository.imdbsearch/master/zips/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">IMDb Search Addon Repository</summary>
+		<description lang="en">Addons for advanced IMDb searches.</description>
+		<disclaimer lang="en">This is not an official IMDb product, just a front end to their excellent advanced search pages.</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon><addon id="context.simple.favourites"
+version="0.1.10"
+name="Simple Favourites Context Menu"
+provider-name="primaeval">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+  <import addon="plugin.program.simple.favourites" version="0.0.10" />
+</requires>
+<extension point="kodi.context.item">
+<menu id="kodi.core.main">
+  <item library="context.py">
+    <label>[COLOR goldenrod]Simple Favourites[/COLOR]</label>
+    <visible>True</visible>
+  </item>
+</menu>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Simple Favourites Context Menu</summary>
+  <description lang="en"></description>
+  <disclaimer lang="en">.</disclaimer>
+</extension>
+</addon>
+
+<addon id="plugin.audio.bbc"
+version="0.0.1"
+name="BBC Radio"
+provider-name="primaeval">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>audio</provides>
+</extension>
+<extension point="xbmc.service" library="service.py" start="login"/>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">BBC Radio</summary>
+  <description lang="en">BBC Radio with Schedules, caching, mpeg-dash, saved Searches, local Favourites.</description>
+  <disclaimer lang="en">You need a UK TV License to use this addon legally. This is not a product of or endorsed by the BBC.</disclaimer>
+</extension>
+</addon>
+
+<addon id="plugin.audio.favourites"
+version="0.0.1"
+name="Audio Favourites"
+provider-name="primaeval">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>audio</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Video Favourites</summary>
+  <description lang="en"></description>
+  <disclaimer lang="en">.</disclaimer>
+</extension>
+</addon>
+
+<addon id="plugin.program.downloader"
+version="0.0.1"
+name="Downloader"
+provider-name="primaeval">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>executable</provides>
+</extension>
+<extension point="xbmc.service" library="service.py" start="startup">
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Downloader</summary>
+  <description lang="en"></description>
+  <disclaimer lang="en">.</disclaimer>
+</extension>
+</addon>
+
+<addon id="plugin.program.fixtures"
+version="0.0.31"
+name="Sports Fixtures"
+provider-name="primaeval">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+  <import addon="script.module.pil" />
+  <import addon="script.module.beautifulsoup4" />
+  <import addon="script.module.dateutil" version="2.4.2" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>executable</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Sports Fixtures</summary>
+  <description lang="en">Sports Fixtures with Channel Information.</description>
+  <disclaimer lang="en">Unofficial front end to BBC Sports</disclaimer>
+</extension>
+</addon>
+
+<addon id="plugin.program.simple.favourites"
+version="0.1.13"
+name="Simple Favourites"
+provider-name="primaeval">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>executable</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Simple Favourites</summary>
+  <description lang="en"></description>
+  <disclaimer lang="en">.</disclaimer>
+</extension>
+</addon>
+
+<addon id="plugin.video.addons.ini.creator"
+version="0.0.9"
+name="addons.ini Creator"
+provider-name="primaeval">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">addons.ini Creator</summary>
+  <description lang="en"></description>
+  <disclaimer lang="en">.</disclaimer>
+</extension>
+</addon>
+
+<addon id="plugin.video.addons.ini.player"
+version="0.0.3"
+name="addons.ini Player"
+provider-name="primaeval">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.service" library="service.py" start="login"/>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">addons.ini Player</summary>
+  <description lang="en"></description>
+  <disclaimer lang="en">.</disclaimer>
+</extension>
+</addon>
+
+<addon id="plugin.video.bbc"
+version="0.0.20"
+name="BBC TV"
+provider-name="primaeval">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.service" library="service.py" start="login"/>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">BBC TV</summary>
+  <description lang="en">BBC iPlayer with Schedules, caching, mpeg-dash, saved Searches, local Favourites.</description>
+  <disclaimer lang="en">You need a UK TV License to use this addon legally. This is not a product of or endorsed by the BBC.</disclaimer>
+</extension>
+</addon>
+
+<addon id="plugin.video.bbc.live"
+version="0.0.4"
+name="BBC Live"
+provider-name="primaeval">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.service" library="service.py" start="login"/>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">BBC Live</summary>
+  <description lang="en"></description>
+  <disclaimer lang="en">.</disclaimer>
+</extension>
+</addon>
+
+<addon id="plugin.video.boilerroom" name="Boiler Room" version="1.0.1" provider-name="primaeval">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <language>en</language>
+    <summary lang="en">Boiler Room music videos and live events</summary>
+    <summary lang="pt">Vídeos e eventos de música da Boiler Room </summary>
+    
+    
+    <description lang="en">Boiler Room videos and live events</description>
+    <description lang="pt">Vídeos e eventos ao vivo da Boiler Room</description>
+    
+    <disclaimer lang="en">The author is not affiliated either with Boiler Room nor the XBMC Foundation</disclaimer>
+    <disclaimer lang="pt">O autor do plugin não tem qualquer relação com a Boiler Room nem com a XBMC Foundation</disclaimer>
+    
+    <source></source>
+    <website>http://boilerroom.tv/</website>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.video.favourites"
+version="0.0.1"
+name="Video Favourites"
+provider-name="primaeval">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Video Favourites</summary>
+  <description lang="en"></description>
+  <disclaimer lang="en">.</disclaimer>
+</extension>
+</addon>
+
+<addon id="plugin.video.hls.playlist.player"
+version="0.0.2"
+name="HLS Playlist Player"
+provider-name="primaeval">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.service" library="service.py" start="login"/>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Autoplay HLS stream based on Bandwidth</summary>
+  <description lang="en">Add Playlists containing HLS stream links. Play them with an optional max bandwidth limit. Recreates the functionality of Jarvis.</description>
+  <disclaimer lang="en">.</disclaimer>
+</extension>
+</addon>
+
+<addon id="plugin.video.playlist.player"
+version="0.0.4"
+name="Playlist Player"
+provider-name="primaeval">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.service" library="service.py" start="login"/>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Playlist Player</summary>
+  <description lang="en"></description>
+  <disclaimer lang="en">.</disclaimer>
+</extension>
+</addon>
+
+<addon id="plugin.video.pvr.plugin.player"
+version="0.0.10"
+name="PVR Plugin Player"
+provider-name="primaeval">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.service" library="service.py" start="login"/>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Play Addon Streams from IPTV Simple Client</summary>
+  <description lang="en"></description>
+  <disclaimer>Based on service.iptvsimple.plugin.player by TheWiz</disclaimer>
+</extension>
+</addon>
+<addon id="plugin.video.rageagain.again"
+version="0.0.4"
+name="Rage Again (again)"
+provider-name="primaeval">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+  <import addon="plugin.video.youtube" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Rage Again</summary>
+  <description lang="en">Front end to rageagain.com. Rage is an Australian music video tv show.</description>
+  <disclaimer lang="en"></disclaimer>
+</extension>
+</addon>
+
+<addon id="plugin.video.replay"
+version="0.0.3"
+name="Replay"
+provider-name="primaeval">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+  <import addon="script.module.simple.downloader" version="1.9.5"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.service" library="service.py" />
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Replay Streams</summary>
+  <description lang="en"></description>
+  <disclaimer lang="en">.</disclaimer>
+</extension>
+</addon>
+
+<addon id="plugin.video.stream.searcher"
+version="0.0.6"
+name="Stream Searcher"
+provider-name="primaeval">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Stream Searcher</summary>
+  <description lang="en">Use Context Menus[CR]Add Folders with Live TV Streams[CR]Add Channels to match Streams[CR]Add Channels folder into TV Guide Fullscreen[CR]Channel matches are lowercase ignoring spaces</description>
+</extension>
+</addon>
+
+<addon id="plugin.video.tvlistings"
+version="0.0.5"
+name="TV Listings"
+provider-name="primaeval">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">TV Listings (UK Only so far)</summary>
+  <description lang="en">TV Listings (UK Only so far). Meta4Kodi catchup playback. Addon ini files for live stream selection.</description>
+  <disclaimer lang="en">Front end to tvguide.co.uk.</disclaimer>
+</extension>
+</addon>
+
+<addon id="plugin.video.tvlistings.xmltv"
+version="0.2.6"
+name="TV Listings (xmltv)"
+provider-name="primaeval">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.service" library="service.py" start="login"/>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">TV Listings (xmltv)</summary>
+  <description lang="en">TV Listings (xmltv). Meta4Kodi catchup playback. Addon ini files for live stream selection.</description>
+  <disclaimer lang="en">.</disclaimer>
+</extension>
+</addon>
+
+<addon id="plugin.video.tvlistings.yo"
+version="0.0.3"
+name="TV Listings (yo.tv)"
+provider-name="primaeval">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">TV Listings (yo.tv)</summary>
+  <description lang="en">TV Listings (yo.tv). Meta4Kodi catchup playback. Addon ini files for live stream selection.</description>
+  <disclaimer lang="en">Front end to yo.tv</disclaimer>
+</extension>
+</addon>
+
+<addon id="script.games.play.mame" name="Play MAME" version="0.0.1" provider-name="primaeval">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language></language>
+    <summary>Play MAME Games</summary>
+    <description>Insert Coin. Press Play.</description>
+  </extension>
+</addon>
+<addon id="script.skin.tightener" name="Skin Tightener" version="0.0.5" provider-name="primaeval">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="addon.py">
+            <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <description lang="en">Copies and removes animation delays from skins.</description>
+        <disclaimer lang="en"></disclaimer>
+        <language></language>
+        <platform>all</platform>
+        <license>GPLv2</license>
+        <forum></forum>
+        <source></source>
+        <website></website>
+        <email>primaeval</email>
+    </extension>
+</addon>
+<addon id="script.tvguide.fullscreen" name="TV Guide Fullscreen"
+version="0.0.366"
+provider-name="primaeval">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0"/>
+        <import addon="script.module.simplejson" version="3.3.0"/>
+        <import addon="script.module.requests" version="2.9.1" />
+        <import addon="script.module.dateutil" version="2.4.2" />
+        <import addon="script.module.pil" />
+        <import addon="script.module.beautifulsoup4" />
+    </requires>
+    <extension point="xbmc.python.script" library="addon.py">
+            <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="login"/>
+    <extension point="xbmc.addon.metadata">
+        <description lang="en">Possibly the most powerful TV Guide in the world. ;) Thanks for the major contributions from: iainmacleod, im85288, RayW1986, bluezed, andy, Zomboided, tycoo, kjb86.</description>
+        <disclaimer lang="en">Based on the original TV Guide addon by twinther, FTV Guide and Midraal's fork.</disclaimer>
+        <language></language>
+        <platform>all</platform>
+        <license>GPLv2</license>
+        <forum>http://forum.kodi.tv/showthread.php?tid=282157</forum>
+        <source>https://github.com/primaeval/script.tvguide.fullscreen</source>
+        <website>https://github.com/primaeval/script.tvguide.fullscreen</website>
+        <email>primaeval</email>
+    </extension>
+</addon>
+<addon id="script.tvguide.fullscreen.skin.carnelian" name="TV Guide Fullscreen - Carnelian Skin" version="0.0.1" provider-name="primaeval">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0"/>
+        <import addon="script.tvguide.fullscreen" version="0.0.321"/>
+    </requires>
+    <extension point="xbmc.python.script" library="addon.py">
+            <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <description lang="en"></description>
+        <disclaimer lang="en"></disclaimer>
+        <language></language>
+        <platform>all</platform>
+        <license>GPLv2</license>
+        <forum>http://forum.kodi.tv/showthread.php?tid=282157</forum>
+        <source>https://github.com/primaeval/script.tvguide.fullscreen</source>
+        <website></website>
+        <email>primaeval</email>
+        <assets>
+            <icon>icon.png</icon>
+            <screenshot></screenshot>
+        </assets>
+    </extension>
+</addon>
+<addon id="script.tvguide.fullscreen.skin.lapis" name="TV Guide Fullscreen - Lapis Skin" version="0.0.1" provider-name="primaeval">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0"/>
+        <import addon="script.tvguide.fullscreen" version="0.0.321"/>
+    </requires>
+    <extension point="xbmc.python.script" library="addon.py">
+            <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <description lang="en"></description>
+        <disclaimer lang="en"></disclaimer>
+        <language></language>
+        <platform>all</platform>
+        <license>GPLv2</license>
+        <forum>http://forum.kodi.tv/showthread.php?tid=282157</forum>
+        <source>https://github.com/primaeval/script.tvguide.fullscreen</source>
+        <website></website>
+        <email>primaeval</email>
+        <assets>
+            <icon>icon.png</icon>
+            <screenshot></screenshot>
+        </assets>
+    </extension>
+</addon>
+<addon id="script.tvguide.fullscreen.skin.onyx" name="TV Guide Fullscreen - Onyx Skin" version="0.0.6" provider-name="primaeval">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0"/>
+        <import addon="script.tvguide.fullscreen" version="0.0.321"/>
+    </requires>
+    <extension point="xbmc.python.script" library="addon.py">
+            <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <description lang="en"></description>
+        <disclaimer lang="en"></disclaimer>
+        <language></language>
+        <platform>all</platform>
+        <license>GPLv2</license>
+        <forum>http://forum.kodi.tv/showthread.php?tid=282157</forum>
+        <source>https://github.com/primaeval/script.tvguide.fullscreen</source>
+        <website></website>
+        <email>primaeval</email>
+        <assets>
+            <icon>icon.png</icon>
+            <screenshot></screenshot>
+        </assets>
+    </extension>
+</addon>
+<addon id="script.webgrab"
+version="0.0.39"
+name="Webgrab+Plus Configurator"
+provider-name="primaeval">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>executable</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Webgrab+Plus Configurator</summary>
+  <description lang="en">Easily set up your Webgrab+Plus config and ini files.</description>
+  <disclaimer lang="en">.</disclaimer>
+</extension>
+</addon>
+
+<addon
+  id="skin.confluence.wall"
+  version="0.0.4"
+  name="Confluence Wall"
+  provider-name="primaeval">
+  <requires>
+    <import addon="xbmc.gui" version="5.10.0"/>
+  </requires>
+  <extension
+    point="xbmc.gui.skin"
+    debugging="false"
+    effectslowdown="1.0">
+    <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Confluence Wall skin by primaeval</summary>
+    <description lang="en_GB">Confluence with Fullscreen Video Wall and Zero Animations</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon
+  id="skin.naked"
+  version="0.0.2"
+  name="Naked"
+  provider-name="primaeval">
+  <requires>
+    <import addon="xbmc.gui" version="5.10.0"/>
+  </requires>
+  <extension
+    point="xbmc.gui.skin"
+    debugging="false"
+    effectslowdown="1.0">
+    <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+
+    <platform>all</platform>
+  </extension>
+</addon>
 <addon id="script.tvguide.fullscreen.skin.tycoo" name="TV Guide Fullscreen - White Snow Skin" version="0.0.5" provider-name="tycoo">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
