@@ -86,6 +86,7 @@ for raw_branch in $branches; do
 		branchname=${raw_branch%_*}
 		echo $branchname
 		git checkout $branchname
+		git pull
 		tag=$(git describe --abbrev=0 --tags)
 		git checkout $tag
 		cd -
@@ -102,6 +103,7 @@ for raw_branch in $branches; do
 				cp $addon/$file $branch/$addon/
 			done
 		fi
+		rm $branch/$addon/$addon-*.zip
 		/c/Program\ Files/7-Zip/7z.exe a -xr@exclude $branch/$addon/$addon-${tag#v}.zip $addon
 		tail -n+2 $addon/addon.xml >> $branch/addons.xml
 	done
