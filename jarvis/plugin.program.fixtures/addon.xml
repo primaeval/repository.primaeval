@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.program.fixtures"
-version="0.0.31"
+version="0.0.32"
 name="Sports Fixtures"
 provider-name="primaeval">
 <requires>
   <import addon="xbmc.python" version="2.20.0"/>
   <import addon="script.module.xbmcswift2" version="2.4.0"/>
   <import addon="script.module.requests" version="2.9.1" />
-  <import addon="script.module.pil" />
   <import addon="script.module.beautifulsoup4" />
   <import addon="script.module.dateutil" version="2.4.2" />
 </requires>

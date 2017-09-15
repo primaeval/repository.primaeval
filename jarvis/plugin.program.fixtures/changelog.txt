@@ -1,3 +1,6 @@
+version 0.0.32
+- removed TheFixtures
+
 version 0.0.30-31
 - TheFixtures Football fix
 
