@@ -41,6 +41,7 @@ plugin.video.playlist.player
 plugin.video.pvr.plugin.player
 plugin.video.rageagain.again
 plugin.video.replay
+plugin.video.search.and.play
 plugin.video.stream.searcher
 plugin.video.tvlistings
 plugin.video.tvlistings.xmltv
