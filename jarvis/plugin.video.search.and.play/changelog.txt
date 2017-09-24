@@ -1,2 +1,5 @@
+version 0.0.2
+- movie.library.addon = quick replace plugin.video.* with selected addon
+
 version 0.0.1
 - first release
