@@ -1,3 +1,6 @@
+version 0.0.3
+- tmdb %M
+
 version 0.0.2
 - movie.library.addon = quick replace plugin.video.* with selected addon
 
