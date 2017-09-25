@@ -1,3 +1,6 @@
+version 0.0.4
+- trakt %K
+
 version 0.0.3
 - tmdb %M
 
