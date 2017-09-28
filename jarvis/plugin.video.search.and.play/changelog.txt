@@ -1,3 +1,6 @@
+version 0.0.5
+- "best|good|bad|worst recent|latest <genre> movies with a plot about <plot words> filmed in <location> starring <actor|diector|crew>"
+
 version 0.0.4
 - trakt %K
 
