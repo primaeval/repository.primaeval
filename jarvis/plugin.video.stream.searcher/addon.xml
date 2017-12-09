@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.stream.searcher"
-version="0.0.6"
+version="0.0.7"
 name="Stream Searcher"
 provider-name="primaeval">
 <requires>
