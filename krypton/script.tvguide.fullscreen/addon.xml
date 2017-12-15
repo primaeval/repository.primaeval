@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="script.tvguide.fullscreen" name="TV Guide Fullscreen"
+<<<<<<< HEAD
 version="0.17.376"
+=======
+version="0.17.377"
+>>>>>>> 418279f65665dee86b14037fb961f117520e6a09
 provider-name="primaeval">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
