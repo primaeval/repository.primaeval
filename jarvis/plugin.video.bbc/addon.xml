@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.bbc"
-version="0.0.20"
+version="0.0.21"
 name="BBC TV"
 provider-name="primaeval">
 <requires>
