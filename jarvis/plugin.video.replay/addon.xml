@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.replay"
-version="0.0.3"
+version="0.0.4"
 name="Replay"
 provider-name="primaeval">
 <requires>
