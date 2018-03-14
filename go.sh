@@ -14,6 +14,7 @@ script.tvguide.fullscreen
 script.tvguide.fullscreen.skin.carnelian
 script.tvguide.fullscreen.skin.lapis
 script.tvguide.fullscreen.skin.onyx
+script.tvguide.fullscreen.skin.wmc
 skin.confluence.wall
 "
 
@@ -52,6 +53,7 @@ script.tvguide.fullscreen
 script.tvguide.fullscreen.skin.carnelian
 script.tvguide.fullscreen.skin.lapis
 script.tvguide.fullscreen.skin.onyx
+script.tvguide.fullscreen.skin.wmc
 script.webgrab
 skin.confluence.wall
 skin.naked
