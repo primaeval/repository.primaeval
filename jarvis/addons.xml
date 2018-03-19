@@ -519,7 +519,7 @@ provider-name="primaeval">
     </extension>
 </addon>
 <addon id="script.tvguide.fullscreen" name="TV Guide Fullscreen"
-version="0.0.382"
+version="0.0.383"
 provider-name="primaeval">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
@@ -543,6 +543,8 @@ provider-name="primaeval">
         <source>https://github.com/primaeval/script.tvguide.fullscreen</source>
         <website>https://github.com/primaeval/script.tvguide.fullscreen</website>
         <email>primaeval</email>
+        <news>
+        </news>
     </extension>
 </addon>
 <addon id="script.tvguide.fullscreen.skin.carnelian" name="TV Guide Fullscreen - Carnelian Skin" version="0.0.1" provider-name="primaeval">
