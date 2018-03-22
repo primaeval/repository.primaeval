@@ -57,6 +57,7 @@ script.tvguide.fullscreen.skin.wmc
 script.webgrab
 skin.confluence.wall
 skin.naked
+plugin.video.iptv.recorder
 "
 
 jarvis="
