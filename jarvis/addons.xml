@@ -708,7 +708,7 @@ provider-name="primaeval">
   </extension>
 </addon>
 <addon id="plugin.video.iptv.recorder"
-version="0.0.2"
+version="0.0.3"
 name="IPTV Recorder"
 provider-name="primaeval">
 <requires>
