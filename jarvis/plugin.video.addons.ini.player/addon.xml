@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.addons.ini.player"
-version="0.0.4"
+version="0.0.5"
 name="addons.ini Player"
 provider-name="primaeval">
 <requires>
@@ -15,7 +15,7 @@ provider-name="primaeval">
 <extension point="xbmc.addon.metadata">
   <summary lang="en">addons.ini Player</summary>
   <description lang="en"></description>
-  <disclaimer lang="en">.</disclaimer>
+  <disclaimer lang="en"></disclaimer>
 </extension>
 </addon>
 
