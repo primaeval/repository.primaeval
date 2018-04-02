@@ -708,7 +708,7 @@ provider-name="primaeval">
   </extension>
 </addon>
 <addon id="plugin.video.iptv.recorder"
-version="0.0.6"
+version="0.0.7"
 name="IPTV Recorder"
 provider-name="primaeval, Chychy">
 <requires>
