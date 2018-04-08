@@ -745,7 +745,7 @@ Many thanks to Chychy for the internationalisation.</news>
 </addon>
 
 <addon id="plugin.program.xmltv.meld"
-version="0.0.1"
+version="0.0.2"
 name="xmltv Meld"
 provider-name="primaeval">
 <requires>
