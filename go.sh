@@ -58,6 +58,7 @@ script.webgrab
 skin.confluence.wall
 skin.naked
 plugin.video.iptv.recorder
+plugin.program.xmltv.meld
 "
 
 jarvis="
