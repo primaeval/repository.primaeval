@@ -744,7 +744,7 @@ ffmpeg simply copies the stream into a transport stream container.
 </addon>
 
 <addon id="plugin.program.xmltv.meld"
-version="0.0.3"
+version="0.0.4"
 name="xmltv Meld"
 provider-name="primaeval">
 <requires>
