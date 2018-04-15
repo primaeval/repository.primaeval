@@ -125,7 +125,7 @@ for repo in ['jarvis', 'krypton']:
             try: os.makedirs(os.path.join(zips,addon))
             except: exit()
 
-            if sys.argv[1] == "clean":
+            if len(sys.argv) > 1 and sys.argv[1] == "clean":
                 subprocess.call(["rm",'-rf',addon])
 
             if addon not in  ["repository.primaeval", "repository.imdbsearch" ]:
