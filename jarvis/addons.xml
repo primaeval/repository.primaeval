@@ -1,48 +1,8 @@
-<?xml version=1.0 encoding=UTF-8 standalone=yes?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="repository.primaeval"
-        name="primaeval's beta dev repository"
-        version="0.0.2"
-        provider-name="primaeval">
-    <requires>
-        <import addon="xbmc.addon" version="16.0.0"/>
-    </requires>
-    <extension point="xbmc.addon.repository"
-        name="primaeval's beta dev repository">
-        <dir minversion="16.0.0">
-            <info compressed="false">https://github.com/primaeval/repository.primaeval/raw/master/jarvis/addons.xml</info>
-            <checksum>https://github.com/primaeval/repository.primaeval/raw/master/jarvis/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.github.com/primaeval/repository.primaeval/master/jarvis/</datadir>
-        </dir>
-        <dir minversion="17.0.0">
-            <info compressed="false">https://github.com/primaeval/repository.primaeval/raw/master/krypton/addons.xml</info>
-            <checksum>https://github.com/primaeval/repository.primaeval/raw/master/krypton/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.github.com/primaeval/repository.primaeval/master/krypton/</datadir>
-        </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-    </extension>
-</addon>
-<addon id="repository.imdbsearch"
-		name="IMDb Search Addon Repository"
-		version="0.0.1"
-		provider-name="primaeval">
-	<extension point="xbmc.addon.repository"
-		name="IMDb Search Addon Repository">
-		<dir>
-			<info compressed="false">https://github.com/primaeval/repository.imdbsearch/raw/master/imdbsearch-addons.xml</info>
-			<checksum>https://github.com/primaeval/repository.imdbsearch/raw/master/imdbsearch-addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.github.com/primaeval/repository.imdbsearch/master/zips/</datadir>
-		</dir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">IMDb Search Addon Repository</summary>
-		<description lang="en">Addons for advanced IMDb searches.</description>
-		<disclaimer lang="en">This is not an official IMDb product, just a front end to their excellent advanced search pages.</disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon><addon id="context.simple.favourites"
+
+
+<addon id="context.simple.favourites"
 version="0.1.10"
 name="Simple Favourites Context Menu"
 provider-name="primaeval">
@@ -67,6 +27,9 @@ provider-name="primaeval">
 </extension>
 </addon>
 
+
+
+
 <addon id="plugin.audio.bbc"
 version="0.0.2"
 name="BBC Radio"
@@ -87,6 +50,9 @@ provider-name="primaeval">
 </extension>
 </addon>
 
+
+
+
 <addon id="plugin.audio.favourites"
 version="0.0.1"
 name="Audio Favourites"
@@ -105,6 +71,9 @@ provider-name="primaeval">
   <disclaimer lang="en">.</disclaimer>
 </extension>
 </addon>
+
+
+
 
 <addon id="plugin.program.downloader"
 version="0.0.1"
@@ -127,6 +96,9 @@ provider-name="primaeval">
 </extension>
 </addon>
 
+
+
+
 <addon id="plugin.program.fixtures"
 version="0.0.32"
 name="Sports Fixtures"
@@ -148,6 +120,9 @@ provider-name="primaeval">
 </extension>
 </addon>
 
+
+
+
 <addon id="plugin.program.simple.favourites"
 version="0.1.13"
 name="Simple Favourites"
@@ -167,6 +142,9 @@ provider-name="primaeval">
 </extension>
 </addon>
 
+
+
+
 <addon id="plugin.video.addons.ini.creator"
 version="0.0.9"
 name="addons.ini Creator"
@@ -185,6 +163,9 @@ provider-name="primaeval">
   <disclaimer lang="en">.</disclaimer>
 </extension>
 </addon>
+
+
+
 
 <addon id="plugin.video.addons.ini.player"
 version="0.0.5"
@@ -206,6 +187,9 @@ provider-name="primaeval">
 </extension>
 </addon>
 
+
+
+
 <addon id="plugin.video.bbc"
 version="0.0.34"
 name="BBC TV"
@@ -226,6 +210,9 @@ provider-name="primaeval">
 </extension>
 </addon>
 
+
+
+
 <addon id="plugin.video.bbc.live"
 version="0.0.4"
 name="BBC Live"
@@ -245,6 +232,9 @@ provider-name="primaeval">
   <disclaimer lang="en">.</disclaimer>
 </extension>
 </addon>
+
+
+
 
 <addon id="plugin.video.boilerroom" name="Boiler Room" version="1.0.1" provider-name="primaeval">
   <requires>
@@ -270,6 +260,9 @@ provider-name="primaeval">
     <platform>all</platform>
   </extension>
 </addon>
+
+
+
 <addon id="plugin.video.favourites"
 version="0.0.1"
 name="Video Favourites"
@@ -288,6 +281,9 @@ provider-name="primaeval">
   <disclaimer lang="en">.</disclaimer>
 </extension>
 </addon>
+
+
+
 
 <addon id="plugin.video.hls.playlist.player"
 version="0.0.2"
@@ -309,6 +305,9 @@ provider-name="primaeval">
 </extension>
 </addon>
 
+
+
+
 <addon id="plugin.video.playlist.player"
 version="0.0.4"
 name="Playlist Player"
@@ -329,6 +328,9 @@ provider-name="primaeval">
 </extension>
 </addon>
 
+
+
+
 <addon id="plugin.video.pvr.plugin.player"
 version="0.0.14"
 name="PVR Plugin Player"
@@ -348,6 +350,9 @@ provider-name="primaeval">
   <disclaimer>Based on service.iptvsimple.plugin.player by TheWiz</disclaimer>
 </extension>
 </addon>
+
+
+
 <addon id="plugin.video.rageagain.again"
 version="0.0.4"
 name="Rage Again (again)"
@@ -367,6 +372,9 @@ provider-name="primaeval">
   <disclaimer lang="en"></disclaimer>
 </extension>
 </addon>
+
+
+
 
 <addon id="plugin.video.replay"
 version="0.0.4"
@@ -389,6 +397,9 @@ provider-name="primaeval">
 </extension>
 </addon>
 
+
+
+
 <addon id="plugin.video.search.and.play"
 version="0.0.6"
 name="Search and Play"
@@ -408,6 +419,9 @@ provider-name="primaeval">
 </extension>
 </addon>
 
+
+
+
 <addon id="plugin.video.stream.searcher"
 version="0.0.7"
 name="Stream Searcher"
@@ -426,8 +440,11 @@ provider-name="primaeval">
 </extension>
 </addon>
 
+
+
+
 <addon id="plugin.video.tvlistings"
-version="0.0.5"
+version="0.0.6"
 name="TV Listings"
 provider-name="primaeval">
 <requires>
@@ -444,6 +461,9 @@ provider-name="primaeval">
   <disclaimer lang="en">Front end to tvguide.co.uk.</disclaimer>
 </extension>
 </addon>
+
+
+
 
 <addon id="plugin.video.tvlistings.xmltv"
 version="0.2.6"
@@ -465,8 +485,11 @@ provider-name="primaeval">
 </extension>
 </addon>
 
+
+
+
 <addon id="plugin.video.tvlistings.yo"
-version="0.0.3"
+version="0.0.4"
 name="TV Listings (yo.tv)"
 provider-name="primaeval">
 <requires>
@@ -484,7 +507,10 @@ provider-name="primaeval">
 </extension>
 </addon>
 
-<addon id="script.games.play.mame" name="Play MAME" version="0.0.1" provider-name="primaeval">
+
+
+
+<addon id="script.games.play.mame" name="Play MAME" version="0.0.2" provider-name="primaeval">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.xbmcswift2" version="2.4.0"/>
@@ -499,6 +525,9 @@ provider-name="primaeval">
     <description>Insert Coin. Press Play.</description>
   </extension>
 </addon>
+
+
+
 <addon id="script.skin.tightener" name="Skin Tightener" version="0.0.7" provider-name="primaeval">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
@@ -518,6 +547,9 @@ provider-name="primaeval">
         <email>primaeval</email>
     </extension>
 </addon>
+
+
+
 <addon id="script.tvguide.fullscreen" name="TV Guide Fullscreen"
 version="0.0.387"
 provider-name="primaeval">
@@ -547,6 +579,9 @@ provider-name="primaeval">
         </news>
     </extension>
 </addon>
+
+
+
 <addon id="script.tvguide.fullscreen.skin.carnelian" name="TV Guide Fullscreen - Carnelian Skin" version="0.0.1" provider-name="primaeval">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
@@ -571,6 +606,9 @@ provider-name="primaeval">
         </assets>
     </extension>
 </addon>
+
+
+
 <addon id="script.tvguide.fullscreen.skin.lapis" name="TV Guide Fullscreen - Lapis Skin" version="0.0.1" provider-name="primaeval">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
@@ -595,6 +633,9 @@ provider-name="primaeval">
         </assets>
     </extension>
 </addon>
+
+
+
 <addon id="script.tvguide.fullscreen.skin.onyx" name="TV Guide Fullscreen - Onyx Skin" version="0.0.6" provider-name="primaeval">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
@@ -619,6 +660,9 @@ provider-name="primaeval">
         </assets>
     </extension>
 </addon>
+
+
+
 <addon id="script.tvguide.fullscreen.skin.wmc" name="TV Guide Fullscreen - WMC" version="0.0.1" provider-name="DoctorEggs">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
@@ -649,6 +693,9 @@ provider-name="primaeval">
         </assets>
     </extension>
 </addon>
+
+
+
 <addon id="script.webgrab"
 version="0.0.39"
 name="Webgrab+Plus Configurator"
@@ -667,6 +714,9 @@ provider-name="primaeval">
   <disclaimer lang="en">.</disclaimer>
 </extension>
 </addon>
+
+
+
 
 <addon
   id="skin.confluence.wall"
@@ -688,6 +738,9 @@ provider-name="primaeval">
     <platform>all</platform>
   </extension>
 </addon>
+
+
+
 <addon
   id="skin.naked"
   version="0.0.2"
@@ -707,6 +760,9 @@ provider-name="primaeval">
     <platform>all</platform>
   </extension>
 </addon>
+
+
+
 <addon id="plugin.video.iptv.recorder"
 version="0.0.22"
 name="IPTV Recorder"
@@ -743,6 +799,9 @@ ffmpeg simply copies the stream into a transport stream container.
 </extension>
 </addon>
 
+
+
+
 <addon id="plugin.program.xmltv.meld"
 version="0.0.5"
 name="xmltv Meld"
@@ -763,27 +822,107 @@ provider-name="primaeval">
 </extension>
 </addon>
 
-<addon id="script.tvguide.fullscreen.skin.tycoo" name="TV Guide Fullscreen - White Snow Skin" version="0.0.5" provider-name="tycoo">
+
+
+
+<addon id="plugin.video.imdb.search"
+version="0.0.16"
+name="IMDb Advanced Search"
+provider-name="primaeval">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+  <import addon="script.module.simple.downloader" version="1.9.5"/>
+  <import addon="script.module.trakt" version="2.5.1"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.service"
+  library="service.py" start="startup">
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">IMDb Advanced Search</summary>
+  <description lang="en">Combined IMDb Advanced Title and People Search. Meta4Kodi playback. Extended Info. Trakt. CouchPotato. Sickrage.</description>
+  <disclaimer lang="en">.</disclaimer>
+</extension>
+</addon>
+
+
+
+
+<addon id="plugin.video.imdb.watchlists"
+version="0.0.37"
+name="IMDb Watchlists"
+provider-name="primaeval">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.service"
+  library="service.py" start="startup">
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">IMDb Watchlists</summary>
+  <description lang="en"></description>
+  <disclaimer lang="en">.</disclaimer>
+</extension>
+</addon>
+
+
+<addon id="repository.primaeval"
+        name="primaeval's beta dev repository"
+        version="0.0.2"
+        provider-name="primaeval">
     <requires>
-        <import addon="xbmc.python" version="2.19.0"/>
-        <import addon="script.tvguide.fullscreen" version="0.0.324"/>
+        <import addon="xbmc.addon" version="16.0.0"/>
     </requires>
-    <extension point="xbmc.python.script" library="addon.py">
-            <provides>executable</provides>
+    <extension point="xbmc.addon.repository"
+        name="primaeval's beta dev repository">
+        <dir minversion="16.0.0">
+            <info compressed="false">https://github.com/primaeval/repository.primaeval/raw/master/jarvis/addons.xml</info>
+            <checksum>https://github.com/primaeval/repository.primaeval/raw/master/jarvis/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.github.com/primaeval/repository.primaeval/master/jarvis/</datadir>
+        </dir>
+        <dir minversion="17.0.0">
+            <info compressed="false">https://github.com/primaeval/repository.primaeval/raw/master/krypton/addons.xml</info>
+            <checksum>https://github.com/primaeval/repository.primaeval/raw/master/krypton/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.github.com/primaeval/repository.primaeval/master/krypton/</datadir>
+        </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">tycoo's White Snow skin for TV Guide Fullscreen</summary>
-        <description lang="en">CustomFont Setup:[CR]1. Add Muli-ExtraBold.ttf (inside zip) into your skin addon folder: /addons/'yourskinfolder'/font/ (Example: /addons/skin.aeon.nox.silvo/font/)[CR]2. Open TVGuide_Muli-ExtraBold.txt, copy and paste into font.xml inside /addons/'yourskinfolder'/1080i/font.xml[CR]3. Restart Kodi.[CR]Don't forget to calibrate your gamma :D</description>
-        <disclaimer lang="en"></disclaimer>
-        <language></language>
         <platform>all</platform>
-        <license>GPLv2</license>
-        <forum>http://forum.kodi.tv/showthread.php?tid=282157</forum>
-        <source>https://github.com/primaeval/script.tvguide.fullscreen</source>
-        <website></website>
-        <email></email>
     </extension>
 </addon>
+
+
+
+<addon id="repository.imdbsearch"
+		name="IMDb Search Addon Repository"
+		version="0.0.1"
+		provider-name="primaeval">
+	<extension point="xbmc.addon.repository"
+		name="IMDb Search Addon Repository">
+		<dir>
+			<info compressed="false">https://github.com/primaeval/repository.imdbsearch/raw/master/imdbsearch-addons.xml</info>
+			<checksum>https://github.com/primaeval/repository.imdbsearch/raw/master/imdbsearch-addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.github.com/primaeval/repository.imdbsearch/master/zips/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">IMDb Search Addon Repository</summary>
+		<description lang="en">Addons for advanced IMDb searches.</description>
+		<disclaimer lang="en">This is not an official IMDb product, just a front end to their excellent advanced search pages.</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+
 <addon id="script.tvguide.fullscreen.skin.kjb85" name="TV Guide Fullscreen - KJB Skin" version="0.0.6" provider-name="kjb85">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
@@ -810,4 +949,30 @@ provider-name="primaeval">
         </assets>
     </extension>
 </addon>
+
+
+
+<addon id="script.tvguide.fullscreen.skin.tycoo" name="TV Guide Fullscreen - White Snow Skin" version="0.0.5" provider-name="tycoo">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0"/>
+        <import addon="script.tvguide.fullscreen" version="0.0.324"/>
+    </requires>
+    <extension point="xbmc.python.script" library="addon.py">
+            <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">tycoo's White Snow skin for TV Guide Fullscreen</summary>
+        <description lang="en">CustomFont Setup:[CR]1. Add Muli-ExtraBold.ttf (inside zip) into your skin addon folder: /addons/'yourskinfolder'/font/ (Example: /addons/skin.aeon.nox.silvo/font/)[CR]2. Open TVGuide_Muli-ExtraBold.txt, copy and paste into font.xml inside /addons/'yourskinfolder'/1080i/font.xml[CR]3. Restart Kodi.[CR]Don't forget to calibrate your gamma :D</description>
+        <disclaimer lang="en"></disclaimer>
+        <language></language>
+        <platform>all</platform>
+        <license>GPLv2</license>
+        <forum>http://forum.kodi.tv/showthread.php?tid=282157</forum>
+        <source>https://github.com/primaeval/script.tvguide.fullscreen</source>
+        <website></website>
+        <email></email>
+    </extension>
+</addon>
+
+
 </addons>

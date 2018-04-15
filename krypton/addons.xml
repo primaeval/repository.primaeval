@@ -1,5 +1,7 @@
-<?xml version=1.0 encoding=UTF-8 standalone=yes?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+
+
 <addon id="script.tvguide.fullscreen.skin.tycoo" name="TV Guide Fullscreen - White Snow Skin" version="0.17.5" provider-name="tycoo">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
@@ -28,6 +30,9 @@
         </assets>
     </extension>
 </addon>
+
+
+
 <addon id="script.tvguide.fullscreen.skin.kjb85" name="TV Guide Fullscreen - KJB Skin" version="0.17.6" provider-name="kjb85">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
@@ -54,6 +59,9 @@
         </assets>
     </extension>
 </addon>
+
+
+
 <addon id="skin.estuary.wall" version="1.9.10" name="Estuary Wall" provider-name="primaeval, original: phil65, Ichabod Fletchman">
 	<requires>
 		<import addon="xbmc.gui" version="5.12.0"/>
@@ -208,6 +216,9 @@
 		</assets>
 	</extension>
 </addon>
+
+
+
 <addon id="script.tvguide.fullscreen" name="TV Guide Fullscreen"
 version="0.17.387"
 provider-name="primaeval">
@@ -237,6 +248,9 @@ provider-name="primaeval">
         </news>
     </extension>
 </addon>
+
+
+
 <addon id="script.tvguide.fullscreen.skin.carnelian" name="TV Guide Fullscreen - Carnelian Skin" version="0.17.1" provider-name="primaeval">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
@@ -261,6 +275,9 @@ provider-name="primaeval">
         </assets>
     </extension>
 </addon>
+
+
+
 <addon id="script.tvguide.fullscreen.skin.lapis" name="TV Guide Fullscreen - Lapis Skin" version="0.17.1" provider-name="primaeval">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
@@ -285,6 +302,9 @@ provider-name="primaeval">
         </assets>
     </extension>
 </addon>
+
+
+
 <addon id="script.tvguide.fullscreen.skin.onyx" name="TV Guide Fullscreen - Onyx Skin" version="0.17.6" provider-name="primaeval">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
@@ -309,6 +329,9 @@ provider-name="primaeval">
         </assets>
     </extension>
 </addon>
+
+
+
 <addon id="script.tvguide.fullscreen.skin.wmc" name="TV Guide Fullscreen - WMC" version="0.17.1" provider-name="DoctorEggs">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
@@ -339,6 +362,9 @@ provider-name="primaeval">
         </assets>
     </extension>
 </addon>
+
+
+
 <addon id="skin.confluence.wall" version="3.0.39" name="Confluence Wall" provider-name="primaeval">
 	<requires>
 		<import addon="xbmc.gui" version="5.12.0"/>
@@ -487,4 +513,6 @@ provider-name="primaeval">
 		</assets>
 		<news>Fixed home Weather item / Added 'Privacy Policy' to system info / Updated background video conditions</news>
 	</extension>
-</addon></addons>
+</addon>
+
+</addons>
