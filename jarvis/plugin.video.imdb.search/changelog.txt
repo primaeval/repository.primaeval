@@ -1,0 +1,51 @@
+version 0.0.16
+- people fix
+
+version 0.0.15
+- trakt collection
+
+version 0.0.14
+- duplicates
+- strm files
+- estuary wall
+
+version 0.0.13
+- update and clean library on Browse context menu
+- date[days] for days since today in release_date
+- eg release_date\start = date[90] to help hide cinema only movies
+
+version 0.0.12
+- library automation
+
+version 0.0.11
+- tv show fix
+
+version 0.0.10
+- simple title searches
+
+version 0.0.9
+- built-in SickRage handling if plugin not installed (courtesy of Hiltronix)
+
+version 0.0.8
+- json fix
+
+version 0.0.7
+- Image Quality setting
+
+version 0.0.6
+- Trakt. Couchpotato. Sickrage.
+
+version 0.0.5
+- catchup plugin setting
+
+version 0.0.4
+- sort by user rating missing
+
+version 0.0.3
+- Android fixes
+
+version 0.0.2
+- people sort
+
+version 0.0.1
+- first release

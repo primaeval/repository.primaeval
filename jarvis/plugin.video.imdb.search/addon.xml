@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.imdb.search"
+version="0.0.16"
+name="IMDb Advanced Search"
+provider-name="primaeval">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+  <import addon="script.module.simple.downloader" version="1.9.5"/>
+  <import addon="script.module.trakt" version="2.5.1"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.service"
+  library="service.py" start="startup">
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">IMDb Advanced Search</summary>
+  <description lang="en">Combined IMDb Advanced Title and People Search. Meta4Kodi playback. Extended Info. Trakt. CouchPotato. Sickrage.</description>
+  <disclaimer lang="en">.</disclaimer>
+</extension>
+</addon>
+

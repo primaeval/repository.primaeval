@@ -204,5 +204,6 @@ for repo in ['jarvis', 'krypton']:
     m.close()
 
 f = open('.gitignore','w')
-f.write('\n'.join(sorted(all_addons)))
+for addon in sorted(all_addons):
+    f.write("/%s\n" % addon)
 f.close()

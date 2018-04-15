@@ -1,0 +1,118 @@
+Version 0.0.37
+- ls list fix
+
+Version 0.0.35-36
+- Subscribe to IMDb Advanced Search Urls in Maintenance
+- eg http://www.imdb.com/search/title?count=250&genres=family&production_status=released&title_type=feature&view=simple
+- max pages Setting
+
+Version 0.0.34
+- custom Library Urls in Settings
+
+Version 0.0.33
+- Settings \ Automation \ Include Special Episodes
+
+Version 0.0.32
+- catchup plugin setting
+
+Version 0.0.31
+- ls list image and mini-series fix
+
+Version 0.0.29-30
+- TV Show period filter in Settings\Automation\TV Show Add Period
+
+Version 0.0.27-28
+- ls lists image server changed
+
+Version 0.0.26
+- set movies view mode
+
+Version 0.0.25
+- login update delay setting
+
+Version 0.0.24
+- update on login setting
+
+Version 0.0.23
+- help.txt
+
+Version 0.0.22
+- last_run exception
+
+Version 0.0.21
+- subscribe context menu
+- hide duplicates
+- fix sort
+
+Version 0.0.20
+- tidy
+
+Version 0.0.19
+- optimise duplicate testing
+
+Version 0.0.18
+- allow duplicates setting
+
+Version 0.0.17
+- fix
+
+Version 0.0.16
+- add watchlist if none
+
+Version 0.0.15
+- fix
+
+Version 0.0.14
+- fix
+
+Version 0.0.13
+- rss links are gone
+- ls links are in
+- sort order in settings
+- detects list name on add
+
+Version 0.0.12
+- list order fix
+- urls can be ls12345678 (converted to rss internally)
+
+Version 0.0.11
+- update watchlists timer setting
+- update after add is now manual
+
+Version 0.0.10
+- maintenance menu
+- partial tv show updates
+
+Version 0.0.9
+- iSearch
+- urls can be ur12345678
+- tv show update timer
+- delete from library command
+- seperate delete and clean library commands
+
+Version 0.0.8
+- add individual items to library
+- context menu commands
+
+Version 0.0.7
+- nuke library
+- don't add unaired episodes
+
+Version 0.0.6
+- export to strm files
+
+Version 0.0.5
+- main category filter
+
+Version 0.0.4
+- fix
+
+Version 0.0.3
+- force English titles
+
+Version 0.0.2
+- support for rss lists (rss.imdb.com)
+- only first 250 items are shown
+
+Version 0.0.1
+- first release
