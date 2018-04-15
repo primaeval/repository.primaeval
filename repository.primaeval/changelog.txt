@@ -1,0 +1,5 @@
+Version 0.0.2
+- separate Kodi version folders
+
+Version 0.0.1
+- press start
