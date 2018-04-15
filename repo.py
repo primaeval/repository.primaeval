@@ -178,9 +178,12 @@ for repo in ['jarvis', 'krypton']:
             zf = zipfile.ZipFile(zip, "w")
             for dirname, subdirs, files in os.walk(addon, topdown=TypeError):
                 subdirs[:] = [d for d in subdirs if d not in ['.git']]
+                os.utime(dirname,(315532800, 315532800))
                 zf.write(dirname)
                 for filename in files:
-                    zf.write(os.path.join(dirname, filename))
+                    path = os.path.join(dirname, filename)
+                    os.utime(path,(315532800, 315532800))
+                    zf.write(path)
             zf.close()
 
             zipdst = os.path.join(zips,addon,zip)
