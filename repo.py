@@ -112,7 +112,7 @@ for repo in ['jarvis', 'krypton']:
 
     for branch in ['master', 'jarvis', 'krypton']:
 
-        print color.blue + "### REPO: " + repo + '>>> "BRANCH:"' + branch + ' >>>'+ color.end
+        print color.blue + "### REPO: " + repo + ' >>> BRANCH: ' + branch + ' >>>'+ color.end
 
         addons = branches.get(branch,[])
 
