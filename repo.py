@@ -50,6 +50,7 @@ repos = {
             "plugin.video.imdb.watchlists",
             "repository.primaeval",
             "repository.imdbsearch",
+            "service.poke",
         ],
         'jarvis': {
             "script.tvguide.fullscreen.skin.tycoo",
