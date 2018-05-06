@@ -51,6 +51,7 @@ repos = {
             "repository.primaeval",
             "repository.imdbsearch",
             "service.poke",
+            "plugin.video.bbc.strms",
         ],
         'jarvis': {
             "script.tvguide.fullscreen.skin.tycoo",
