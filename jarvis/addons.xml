@@ -956,7 +956,7 @@ provider-name="primaeval">
 
 
 <addon id="plugin.video.bbc.strms"
-version="0.0.2"
+version="0.0.3"
 name="BBC strms"
 provider-name="primaeval">
 <requires>
@@ -970,7 +970,7 @@ provider-name="primaeval">
 <extension point="xbmc.service" library="server.py" start="login"/>
 <extension point="xbmc.addon.metadata">
   <summary lang="en">Creates .strm folder of selected BBC channels.</summary>
-  <description lang="en">Choose one or more channels. Service. Add channel or just shows to Kodi library with Local nfo Scanner. Update Library. Set Service Time in Settings.</description>
+  <description lang="en">Subscribe to one or more channels and shows. Service. Add channel or just shows to Kodi library with Local nfo Scanner. Update Library. Set Service Time in Settings.</description>
   <disclaimer lang="en"></disclaimer>
 </extension>
 </addon>
