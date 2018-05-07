@@ -52,6 +52,7 @@ repos = {
             "repository.imdbsearch",
             "service.poke",
             "plugin.video.bbc.strms",
+            "plugin.video.dr.strms",
         ],
         'jarvis': {
             "script.tvguide.fullscreen.skin.tycoo",
