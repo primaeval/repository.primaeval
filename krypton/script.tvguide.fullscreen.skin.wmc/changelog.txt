@@ -1,2 +1,5 @@
+version 0.17.2
+- update channel background
+- update channel number entry
 version 0.17.1
 - initial release

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.tvguide.fullscreen.skin.wmc" name="TV Guide Fullscreen - WMC" version="0.17.1" provider-name="DoctorEggs">
+<addon id="script.tvguide.fullscreen.skin.wmc" name="TV Guide Fullscreen - WMC" version="0.17.2" provider-name="DoctorEggs">
     <requires>
-        <import addon="xbmc.python" version="2.25.0"/>
+        <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.tvguide.fullscreen" version="0.0.324"/>
     </requires>
     <extension point="xbmc.python.script" library="addon.py">

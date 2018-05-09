@@ -40,7 +40,6 @@ repos = {
             "script.tvguide.fullscreen.skin.carnelian",
             "script.tvguide.fullscreen.skin.lapis",
             "script.tvguide.fullscreen.skin.onyx",
-            "script.tvguide.fullscreen.skin.wmc",
             "script.webgrab",
             "skin.confluence.wall",
             "skin.naked",
@@ -57,6 +56,7 @@ repos = {
         'jarvis': {
             "script.tvguide.fullscreen.skin.tycoo",
             "script.tvguide.fullscreen.skin.kjb85",
+            "script.tvguide.fullscreen.skin.wmc",
         }
     },
     'krypton': {
@@ -64,13 +64,13 @@ repos = {
             "script.tvguide.fullscreen.skin.tycoo",
             "script.tvguide.fullscreen.skin.kjb85",
             "skin.estuary.wall",
+            "script.tvguide.fullscreen.skin.wmc",
             ],
         'krypton': [
             "script.tvguide.fullscreen",
             "script.tvguide.fullscreen.skin.carnelian",
             "script.tvguide.fullscreen.skin.lapis",
             "script.tvguide.fullscreen.skin.onyx",
-            "script.tvguide.fullscreen.skin.wmc",
             "skin.confluence.wall",
             ]
     }
@@ -86,7 +86,7 @@ class color:
     bold = '\033[1m'
     underline = '\033[4m'
 
-subprocess.call(["rm",'.gitignore'])
+#subprocess.call(["rm",'.gitignore'])
 
 root = '.'
 
@@ -202,6 +202,7 @@ for repo in ['jarvis', 'krypton']:
     x.write('</addons>\n')
     x.close()
 
+    print color.blue + "MD5" + color.end
     md = md5.new()
     md.update(open(addon_xml,'rb').read())
     hex = md.hexdigest()
@@ -209,7 +210,11 @@ for repo in ['jarvis', 'krypton']:
     m.write(hex)
     m.close()
 
+print color.blue + ".gitignore" + color.end
 f = open('.gitignore','w')
 for addon in sorted(all_addons):
     f.write("/%s\n" % addon)
 f.close()
+
+print color.blue + "Finnished" + color.end
+
