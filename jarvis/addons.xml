@@ -264,7 +264,7 @@ provider-name="primaeval">
 
 
 <addon id="plugin.video.favourites"
-version="0.0.1"
+version="0.0.2"
 name="Video Favourites"
 provider-name="primaeval">
 <requires>
@@ -278,7 +278,7 @@ provider-name="primaeval">
 <extension point="xbmc.addon.metadata">
   <summary lang="en">Video Favourites</summary>
   <description lang="en"></description>
-  <disclaimer lang="en">.</disclaimer>
+  <disclaimer lang="en"></disclaimer>
 </extension>
 </addon>
 
@@ -551,7 +551,7 @@ provider-name="primaeval">
 
 
 <addon id="script.tvguide.fullscreen" name="TV Guide Fullscreen"
-version="0.0.389"
+version="0.0.390"
 provider-name="primaeval">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>

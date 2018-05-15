@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.favourites"
-version="0.0.1"
+version="0.0.2"
 name="Video Favourites"
 provider-name="primaeval">
 <requires>
@@ -14,7 +14,7 @@ provider-name="primaeval">
 <extension point="xbmc.addon.metadata">
   <summary lang="en">Video Favourites</summary>
   <description lang="en"></description>
-  <disclaimer lang="en">.</disclaimer>
+  <disclaimer lang="en"></disclaimer>
 </extension>
 </addon>
 
