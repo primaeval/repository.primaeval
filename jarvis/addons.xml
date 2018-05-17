@@ -923,7 +923,7 @@ provider-name="primaeval">
 
 
 <addon id="plugin.video.bbc.strms"
-version="0.0.4"
+version="0.0.5"
 name="BBC strms"
 provider-name="primaeval">
 <requires>
@@ -946,7 +946,7 @@ provider-name="primaeval">
 
 
 <addon id="plugin.video.dr.strms"
-version="0.0.2"
+version="0.0.3"
 name="DR strms"
 provider-name="primaeval">
 <requires>
@@ -959,8 +959,8 @@ provider-name="primaeval">
 </extension>
 <extension point="xbmc.service" library="server.py" start="login"/>
 <extension point="xbmc.addon.metadata">
-  <summary lang="en"></summary>
-  <description lang="en"></description>
+  <summary lang="en">Danish DR Children's strms</summary>
+  <description lang="en">Add DR Ramasjang and Ultra strms to Kodi library with local nfo.</description>
   <disclaimer lang="en"></disclaimer>
 </extension>
 </addon>
