@@ -191,7 +191,7 @@ provider-name="primaeval">
 
 
 <addon id="plugin.video.bbc"
-version="0.0.34"
+version="0.0.35"
 name="BBC TV"
 provider-name="primaeval">
 <requires>
