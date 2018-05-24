@@ -946,7 +946,7 @@ provider-name="primaeval">
 
 
 <addon id="plugin.video.dr.strms"
-version="0.0.3"
+version="0.0.4"
 name="DR strms"
 provider-name="primaeval">
 <requires>
