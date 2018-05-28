@@ -212,6 +212,7 @@ for repo in ['jarvis', 'krypton']:
 
 print color.blue + ".gitignore" + color.end
 f = open('.gitignore','w')
+f.write('go\n')
 for addon in sorted(all_addons):
     f.write("/%s\n" % addon)
 f.close()
