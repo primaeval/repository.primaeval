@@ -1,1 +1,1 @@
-python -u repo.py
+/c/Python27.64/python -u repo.py
