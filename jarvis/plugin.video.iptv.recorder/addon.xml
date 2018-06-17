@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.iptv.recorder"
-version="0.0.64"
+version="0.0.65"
 name="IPTV Recorder"
 provider-name="primaeval, Chychy">
 <requires>
   <import addon="xbmc.python" version="2.20.0"/>
   <import addon="script.module.xbmcswift2" version="2.4.0"/>
   <import addon="script.module.requests" version="2.9.1" />
-  <import addon="script.module.pytz" />
   <import addon="script.module.chardet" />
 </requires>
 <extension point="xbmc.python.pluginsource" library="main.py">
