@@ -1,3 +1,6 @@
+version 0.0.11
+- "change channel id" in "re-order channels"
+
 version 0.0.9
 - Re-order channels
 
