@@ -332,7 +332,7 @@ provider-name="primaeval">
 
 
 <addon id="plugin.video.pvr.plugin.player"
-version="0.0.14"
+version="0.0.15"
 name="PVR Plugin Player"
 provider-name="primaeval">
 <requires>
