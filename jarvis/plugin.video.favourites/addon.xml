@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.favourites"
-version="0.0.2"
+version="0.0.3"
 name="Video Favourites"
 provider-name="primaeval">
 <requires>
