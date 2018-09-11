@@ -1,0 +1,9 @@
+version 0.1.10
+- move type guessing
+- Settings \ Advanced (rename, edit url)
+
+version 0.1.9
+- better media type guessing
+- folder selection
+- media type override
+- rename

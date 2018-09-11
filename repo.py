@@ -13,6 +13,7 @@ repos = {
     'jarvis': {
         'master': [
             "context.simple.favourites",
+            "context.video.favourites",
             "plugin.audio.bbc",
             "plugin.audio.favourites",
             "plugin.program.downloader",
