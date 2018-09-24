@@ -1,4 +1,5 @@
 /go
+/context.replay
 /context.simple.favourites
 /context.video.favourites
 /plugin.audio.bbc

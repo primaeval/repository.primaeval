@@ -12,6 +12,7 @@ import sys
 repos = {
     'jarvis': {
         'master': [
+            "context.replay",
             "context.simple.favourites",
             "context.video.favourites",
             "plugin.audio.bbc",
