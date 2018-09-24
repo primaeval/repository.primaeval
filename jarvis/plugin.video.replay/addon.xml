@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.replay"
-version="0.0.6"
+version="0.0.7"
 name="Replay"
 provider-name="primaeval">
 <requires>
@@ -16,7 +16,7 @@ provider-name="primaeval">
 <extension point="xbmc.addon.metadata">
   <summary lang="en">Replay Streams</summary>
   <description lang="en"></description>
-  <disclaimer lang="en">.</disclaimer>
+  <disclaimer lang="en"></disclaimer>
 </extension>
 </addon>
 
