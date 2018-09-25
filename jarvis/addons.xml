@@ -433,7 +433,7 @@ provider-name="primaeval">
 
 
 <addon id="plugin.video.replay"
-version="0.0.8"
+version="0.0.9"
 name="Replay"
 provider-name="primaeval">
 <requires>
