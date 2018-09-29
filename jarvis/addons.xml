@@ -433,7 +433,7 @@ provider-name="primaeval">
 
 
 <addon id="plugin.video.replay"
-version="0.0.12"
+version="0.0.14"
 name="Replay"
 provider-name="primaeval">
 <requires>
@@ -787,7 +787,7 @@ provider-name="primaeval">
 
 
 <addon id="plugin.video.iptv.recorder"
-version="0.0.73"
+version="0.0.74"
 name="IPTV Recorder"
 provider-name="primaeval, Chychy">
 <requires>
