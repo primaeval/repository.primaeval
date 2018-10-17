@@ -479,7 +479,7 @@ provider-name="primaeval">
 
 
 <addon id="plugin.video.stream.searcher"
-version="0.0.7"
+version="0.0.8"
 name="Stream Searcher"
 provider-name="primaeval">
 <requires>
@@ -826,7 +826,7 @@ ffmpeg simply copies the stream into a transport stream container.
 
 
 <addon id="plugin.program.xmltv.meld"
-version="0.0.18"
+version="0.0.19"
 name="xmltv Meld"
 provider-name="primaeval">
 <requires>
