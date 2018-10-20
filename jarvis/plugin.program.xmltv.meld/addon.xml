@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.program.xmltv.meld"
-version="0.0.25"
+version="0.0.26"
 name="xmltv Meld"
 provider-name="primaeval">
 <requires>
@@ -9,7 +9,7 @@ provider-name="primaeval">
   <import addon="script.module.requests" version="2.9.1" />
 </requires>
 <extension point="xbmc.python.pluginsource" library="main.py">
-  <provides>executable</provides>
+  <provides>video audio executable</provides>
 </extension>
 <extension point="xbmc.service" library="server.py" start="login"/>
 <extension point="xbmc.addon.metadata">
