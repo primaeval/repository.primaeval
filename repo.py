@@ -45,6 +45,7 @@ repos = {
             "script.webgrab",
             "skin.confluence.wall",
             "skin.naked",
+            "plugin.video.addon.recorder",
             "plugin.video.iptv.recorder",
             "plugin.program.xmltv.meld",
             "plugin.video.imdb.search",
