@@ -787,7 +787,7 @@ provider-name="primaeval">
 
 
 <addon id="plugin.video.addon.recorder"
-version="0.0.2"
+version="0.0.3"
 name="Addon Recorder"
 provider-name="primaeval">
 <requires>
