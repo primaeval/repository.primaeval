@@ -479,7 +479,7 @@ provider-name="primaeval">
 
 
 <addon id="plugin.video.stream.searcher"
-version="0.0.12"
+version="0.0.14"
 name="Stream Searcher"
 provider-name="primaeval">
 <requires>
