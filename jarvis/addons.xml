@@ -850,20 +850,21 @@ ffmpeg simply copies the stream into a transport stream container.
 
 
 <addon id="plugin.program.xmltv.meld"
-version="0.0.42"
+version="0.0.43"
 name="xmltv Meld"
 provider-name="primaeval">
 <requires>
   <import addon="xbmc.python" version="2.20.0"/>
   <import addon="script.module.xbmcswift2" version="2.4.0"/>
   <import addon="script.module.requests" version="2.9.1" />
+  <import addon="script.module.beautifulsoup4"  />
 </requires>
 <extension point="xbmc.python.pluginsource" library="main.py">
   <provides>video audio executable</provides>
 </extension>
 <extension point="xbmc.service" library="server.py" start="login"/>
 <extension point="xbmc.addon.metadata">
-  <summary lang="en">Join channels from multiple xmltv files. Covers most countries.</summary>
+  <summary lang="en">Join channels from multiple xmltv files. Covers many countries.</summary>
   <description lang="en">Subscribe to an xmltv provider. Click to add channels. Update to build new xmltv file in addon_data folder. Service timer.</description>
   <disclaimer lang="en"></disclaimer>
 </extension>
