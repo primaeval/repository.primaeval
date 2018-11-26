@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.program.xmltv.meld"
-version="0.0.45"
+version="0.0.46"
 name="xmltv Meld"
 provider-name="primaeval">
 <requires>
