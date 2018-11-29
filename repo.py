@@ -19,6 +19,7 @@ repos = {
             "plugin.audio.favourites",
             "plugin.program.downloader",
             "plugin.program.fixtures",
+            "plugin.program.iptv.groups",
             "plugin.program.simple.favourites",
             "plugin.video.addons.ini.creator",
             "plugin.video.addons.ini.player",
