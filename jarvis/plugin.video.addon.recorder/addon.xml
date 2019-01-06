@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.addon.recorder"
-version="0.0.22"
+version="0.0.23"
 name="Addon Recorder"
 provider-name="primaeval">
 <requires>
