@@ -69,6 +69,7 @@ repos = {
             "script.tvguide.fullscreen.skin.kjb85",
             "skin.estuary.wall",
             "script.tvguide.fullscreen.skin.wmc",
+            "script.tvguide.fullscreen.skin.blue",
             ],
         'krypton': [
             "script.tvguide.fullscreen",

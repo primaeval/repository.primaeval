@@ -252,6 +252,33 @@
 
 
 
+<addon id="script.tvguide.fullscreen.skin.blue" name="TV Guide Fullscreen - Blue Skin" version="0.17.1" provider-name="primaeval">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+        <import addon="script.tvguide.fullscreen" version="0.0.321"/>
+    </requires>
+    <extension point="xbmc.python.script" library="addon.py">
+            <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <description lang="en"></description>
+        <disclaimer lang="en"></disclaimer>
+        <language></language>
+        <platform>all</platform>
+        <license>GPLv2</license>
+        <forum>http://forum.kodi.tv/showthread.php?tid=282157</forum>
+        <source>https://github.com/primaeval/script.tvguide.fullscreen</source>
+        <website></website>
+        <email>primaeval</email>
+        <assets>
+            <icon>icon.png</icon>
+            <screenshot>screenshot001.png</screenshot>
+        </assets>
+    </extension>
+</addon>
+
+
+
 <addon id="script.tvguide.fullscreen" name="TV Guide Fullscreen"
 version="0.17.426"
 provider-name="primaeval">
