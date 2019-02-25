@@ -1074,6 +1074,17 @@ provider-name="primaeval">
 
 
 
+<addon id="script.module.xbmcswift2" name="xbmcswift2" provider-name="Jonathan Beluch (jbel)" version="2.4.0p">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension library="lib" point="xbmc.python.module" />
+  <extension point="xbmc.addon.metadata">
+    <language />
+    <platform>all</platform>
+  </extension>
+</addon>
+
 
 <addon id="script.tvguide.fullscreen.skin.wmc" name="TV Guide Fullscreen - WMC" version="0.0.2" provider-name="DoctorEggs">
     <requires>

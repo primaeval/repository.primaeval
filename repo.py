@@ -56,6 +56,7 @@ repos = {
             "service.poke",
             "plugin.video.bbc.strms",
             "plugin.video.dr.strms",
+            "script.module.xbmcswift2"
         ],
         'jarvis': {
             "script.tvguide.fullscreen.skin.tycoo",
