@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.imdb.search"
-version="0.0.19"
+version="0.0.20"
 name="IMDb Advanced Search"
 provider-name="primaeval">
 <requires>
