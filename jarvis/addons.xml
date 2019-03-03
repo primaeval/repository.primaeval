@@ -909,7 +909,7 @@ provider-name="primaeval">
 
 
 <addon id="plugin.video.imdb.search"
-version="0.0.20"
+version="0.0.21"
 name="IMDb Advanced Search"
 provider-name="primaeval">
 <requires>
