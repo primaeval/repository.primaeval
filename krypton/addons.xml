@@ -252,7 +252,7 @@
 
 
 
-<addon id="script.tvguide.fullscreen.skin.blue" name="TV Guide Fullscreen - Blue Skin" version="0.17.3" provider-name="primaeval">
+<addon id="script.tvguide.fullscreen.skin.blue" name="TV Guide Fullscreen - Blue Skin" version="0.17.4" provider-name="primaeval">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
         <import addon="script.tvguide.fullscreen" version="0.0.321"/>
