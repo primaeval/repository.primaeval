@@ -279,6 +279,30 @@
 
 
 
+<addon id="plugin.video.iptvsimple.addons"
+version="0.0.1"
+name="IPTV Addons"
+provider-name="primaeval">
+<requires>
+  <import addon="xbmc.python" version="2.26.0"/>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+  <import addon="script.module.beautifulsoup4"  />
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.service" library="server.py" start="login"/>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Add addon streams to IPTV Simple Client</summary>
+  <description lang="en"></description>
+  <disclaimer lang="en"></disclaimer>
+</extension>
+</addon>
+
+
+
+
 <addon id="script.tvguide.fullscreen" name="TV Guide Fullscreen"
 version="0.17.436"
 provider-name="primaeval">
