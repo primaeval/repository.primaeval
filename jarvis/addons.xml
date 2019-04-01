@@ -630,7 +630,7 @@ provider-name="primaeval">
 
 
 <addon id="script.tvguide.fullscreen" name="TV Guide Fullscreen"
-version="0.0.437"
+version="0.0.438"
 provider-name="primaeval">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
@@ -834,7 +834,7 @@ provider-name="primaeval">
 
 
 <addon id="plugin.video.iptv.recorder"
-version="0.0.125"
+version="0.0.126"
 name="IPTV Recorder"
 provider-name="primaeval, Chychy">
 <requires>
@@ -870,7 +870,7 @@ ffmpeg simply copies the stream into a transport stream container.
 <disclaimer lang="en">Make sure recording streams is legal in your country.</disclaimer>
 <source>https://github.com/primaeval/plugin.video.iptv.recorder</source>
 <forum>https://forum.kodi.tv/showthread.php?tid=329991</forum>
-<language>en fr</language>
+<language>en fr de</language>
 <news>Now records plugin:// links in Leia</news>
 <assets>
   <icon>icon.png</icon>
