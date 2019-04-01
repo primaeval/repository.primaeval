@@ -280,7 +280,7 @@
 
 
 <addon id="plugin.video.iptvsimple.addons"
-version="0.0.6"
+version="0.0.7"
 name="IPTV Addons"
 provider-name="primaeval">
 <requires>
