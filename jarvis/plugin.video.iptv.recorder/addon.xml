@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.iptv.recorder"
-version="0.0.126"
+version="0.0.127"
 name="IPTV Recorder"
 provider-name="primaeval, Chychy">
 <requires>
@@ -21,6 +21,10 @@ provider-name="primaeval, Chychy">
   <item library="context.py">
     <label>IPTV Recorder Timer</label>
     <visible>Window.isActive(tvchannels)</visible>
+  </item>
+  <item library="contextEPG.py">
+    <label>Schedule IPTV Recorder</label>
+    <visible>Window.isActive(tvguide)</visible>
   </item>
 </menu>
 </extension>
