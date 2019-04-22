@@ -70,8 +70,7 @@ repos = {
             "skin.estuary.wall",
             "script.tvguide.fullscreen.skin.wmc",
             "script.tvguide.fullscreen.skin.blue",
-            "plugin.video.iptvsimple.addons",
-            "script.module.xbmcswift2"            
+            "plugin.video.iptvsimple.addons",           
             ],
         'krypton': [
             "script.tvguide.fullscreen",
