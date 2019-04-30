@@ -889,7 +889,7 @@ ffmpeg simply copies the stream into a transport stream container.
 
 
 <addon id="plugin.program.xmltv.meld"
-version="0.0.59"
+version="0.0.60"
 name="xmltv Meld"
 provider-name="primaeval">
 <requires>
